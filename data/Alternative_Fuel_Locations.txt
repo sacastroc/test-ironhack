@@ -1,0 +1,1825 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "fi3z-jc3f",
+      "name" : "Alternative Fuel Locations - Chicago",
+      "attribution" : "U.S. Department of Energy",
+      "attributionLink" : "http://www.afdc.energy.gov/",
+      "averageRating" : 0,
+      "category" : "Environment & Sustainable Development",
+      "createdAt" : 1445031845,
+      "description" : "List of locations in Chicago where alternative vehicle fuels are available.  For more detailed descriptions of fields, see http://developer.nrel.gov/docs/transportation/alt-fuel-stations-v1 or https://data.cityofchicago.org/developers/docs/alternative-fuel-locations.",
+      "displayType" : "table",
+      "downloadCount" : 84,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1491822191,
+      "moderationStatus" : true,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 14030808,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1445029697,
+      "publicationGroup" : 806697,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowIdentifierColumnId" : 226267241,
+      "rowsUpdatedAt" : 1491822038,
+      "rowsUpdatedBy" : "n9j5-zhen",
+      "tableId" : 4891749,
+      "totalTimesRated" : 0,
+      "viewCount" : 376,
+      "viewLastModified" : 1445031886,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 226267241,
+        "name" : "ID",
+        "dataTypeName" : "number",
+        "fieldName" : "id",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9663666,
+        "width" : 124,
+        "cachedContents" : {
+          "largest" : "81718",
+          "non_null" : 169,
+          "average" : "55883.02958579882",
+          "null" : 0,
+          "top" : [ {
+            "item" : "79311",
+            "count" : 20
+          }, {
+            "item" : "80236",
+            "count" : 19
+          }, {
+            "item" : "80829",
+            "count" : 18
+          }, {
+            "item" : "81413",
+            "count" : 17
+          }, {
+            "item" : "81718",
+            "count" : 16
+          } ],
+          "smallest" : "15014",
+          "sum" : "9444232"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right",
+          "aggregate" : "count"
+        }
+      }, {
+        "id" : 226267242,
+        "name" : "Fuel Type Code",
+        "dataTypeName" : "text",
+        "fieldName" : "fuel_type_code",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663639,
+        "width" : 268,
+        "cachedContents" : {
+          "largest" : "LPG",
+          "non_null" : 169,
+          "null" : 0,
+          "top" : [ {
+            "item" : "LPG",
+            "count" : 20
+          }, {
+            "item" : "E85",
+            "count" : 19
+          }, {
+            "item" : "CNG",
+            "count" : 18
+          }, {
+            "item" : "ELEC",
+            "count" : 17
+          } ],
+          "smallest" : "CNG"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267243,
+        "name" : "Station Name",
+        "dataTypeName" : "text",
+        "fieldName" : "station_name",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663640,
+        "width" : 244,
+        "cachedContents" : {
+          "largest" : "Whole Foods - West Huron",
+          "non_null" : 169,
+          "null" : 0,
+          "top" : [ {
+            "item" : "U-Haul",
+            "count" : 20
+          }, {
+            "item" : "INTERPARK",
+            "count" : 19
+          }, {
+            "item" : "JNS",
+            "count" : 18
+          }, {
+            "item" : "SOLDIER FIELD",
+            "count" : 17
+          }, {
+            "item" : "PARKING A",
+            "count" : 16
+          }, {
+            "item" : "Western Avenue Nissan",
+            "count" : 15
+          }, {
+            "item" : "FOUR40 PROPERTY",
+            "count" : 14
+          }, {
+            "item" : "PARKING B",
+            "count" : 13
+          }, {
+            "item" : "PARKING GARAGE",
+            "count" : 12
+          }, {
+            "item" : "THE BOEING CO",
+            "count" : 11
+          }, {
+            "item" : "35 W WACKER",
+            "count" : 10
+          }, {
+            "item" : "ComEd",
+            "count" : 9
+          }, {
+            "item" : "71086",
+            "count" : 8
+          }, {
+            "item" : "540 W. MADISON",
+            "count" : 7
+          }, {
+            "item" : "1KFULTON",
+            "count" : 6
+          }, {
+            "item" : "CAP 1 (QR 2000448)",
+            "count" : 5
+          }, {
+            "item" : "Grant Park North - Tesla",
+            "count" : 4
+          }, {
+            "item" : "Grant Park South - Tesla",
+            "count" : 3
+          }, {
+            "item" : "Loews Chicago Hotel - Tesla",
+            "count" : 2
+          }, {
+            "item" : "Millennium Lakeside Garage - Tesla",
+            "count" : 1
+          } ],
+          "smallest" : "1000 LAKE SHORE"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267244,
+        "name" : "Street Address",
+        "dataTypeName" : "text",
+        "fieldName" : "street_address",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663641,
+        "width" : 268,
+        "cachedContents" : {
+          "largest" : "Atlantic Parking Lot Frankfurt bus stop",
+          "non_null" : 169,
+          "null" : 0,
+          "top" : [ {
+            "item" : "3400 S Lawndale Ave",
+            "count" : 20
+          }, {
+            "item" : "1 S Wacker Dr",
+            "count" : 19
+          }, {
+            "item" : "1101 S. Canal St",
+            "count" : 18
+          }, {
+            "item" : "2330 North Clifton Avenue",
+            "count" : 17
+          }, {
+            "item" : "6601 N Ridge Blvd",
+            "count" : 16
+          } ],
+          "smallest" : "10000 Bessie Coleman Dr"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267245,
+        "name" : "Intersection Directions",
+        "dataTypeName" : "text",
+        "fieldName" : "intersection_directions",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663642,
+        "width" : 376,
+        "cachedContents" : {
+          "largest" : "WILLIS TOWER 1; ChargePoint Station Located on North Side of Third (3rd) Floor\nWILLIS TOWER W; ChargePoint Station Located on North Side of Third (3rd) Floor",
+          "non_null" : 122,
+          "null" : 47,
+          "top" : [ {
+            "item" : "2 Blocks East of Cermak and Halsted.",
+            "count" : 20
+          }, {
+            "item" : "WF CICERO 2; Located in underground parking near SW corner\nWF CICERO 1; Located in underground parking SW corner",
+            "count" : 19
+          }, {
+            "item" : "400 N MCCLURG; Located on 2nd Floor Cityfront Place Apartments",
+            "count" : 18
+          }, {
+            "item" : "WAL CLARK 2; Located on sidewalk near back of building\nWAL CLARK 1; Located on sidewalk near back of building",
+            "count" : 17
+          }, {
+            "item" : "SEARS IRVING 1; Located on the apron near Auto Center",
+            "count" : 16
+          }, {
+            "item" : "US EQUITY; Located on 4th floor of parking garage SE corner",
+            "count" : 15
+          }, {
+            "item" : "JOHN HANCOCK 1; Located on 6th floor parking garage NW side\nJOHN HANCOCK 2; Located on 6th floor parking garage NW side",
+            "count" : 14
+          }, {
+            "item" : "7474 N ROGERS 2; Located in parking garage level two SW corner\n7474 N ROGERS 1; Located in parking garage level two SW corner",
+            "count" : 13
+          }, {
+            "item" : "1000 LSD; Entrance on Oak Street with Valet Parking",
+            "count" : 12
+          }, {
+            "item" : "WF CANAL 1; Located on column in lower level parking garage\nWF CANAL 2; Located on column in lower level parking garage",
+            "count" : 11
+          }, {
+            "item" : "WAL PULASKI 1; Located near sign on Pulaski side of parking lot\nWAL PULASKI 2; Located near sign on Pulaski side of parking lot",
+            "count" : 10
+          }, {
+            "item" : "WAL LINCOLN 1; Walgreens @ 5158 N Lincoln, Chicago, IL 60625",
+            "count" : 9
+          }, {
+            "item" : "204; ChargePoint station located on 2nd floor  at spot 204 and 205\n206; Located on second floor at spot 206 and 207",
+            "count" : 8
+          }, {
+            "item" : "JEWEL 3640; Jewel @ 3630 N. Southport Ave, Chicago, IL 60613",
+            "count" : 7
+          }, {
+            "item" : "1401 W DEVON 01; -",
+            "count" : 6
+          }, {
+            "item" : "The garage is in the 500 Lake Shore Drive building located between Illinois Street and Grand Avenue - one block west of Lake Shore Drive. Charging station is on second floor next to Zip-car parking stalls.",
+            "count" : 5
+          }, {
+            "item" : "STATION #1; ON LOWER LEVEL ONE JUST OFF RAMP\nSTATION #2; ON LOWER LEVEL ONE JUST OFF RAMP",
+            "count" : 4
+          }, {
+            "item" : "LOT B FLOOR9 #1; 259 E. Erie Parking B on the 9th floor",
+            "count" : 3
+          }, {
+            "item" : "NWU E HURON 2; NWU Parking Garage C-Lot",
+            "count" : 2
+          }, {
+            "item" : "WEST GARAGE 01; West Garage, Head Straight, Door 1. ",
+            "count" : 1
+          } ],
+          "smallest" : "1000 LSD; Entrance on Oak Street with Valet Parking"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267246,
+        "name" : "City",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663643,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "Chicago",
+          "non_null" : 169,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Chicago",
+            "count" : 20
+          } ],
+          "smallest" : "Chicago"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267247,
+        "name" : "State",
+        "dataTypeName" : "text",
+        "fieldName" : "state",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663644,
+        "width" : 160,
+        "cachedContents" : {
+          "largest" : "IL",
+          "non_null" : 169,
+          "null" : 0,
+          "top" : [ {
+            "item" : "IL",
+            "count" : 20
+          } ],
+          "smallest" : "IL"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267248,
+        "name" : "ZIP",
+        "dataTypeName" : "text",
+        "fieldName" : "zip",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663645,
+        "width" : 136,
+        "cachedContents" : {
+          "largest" : "60666",
+          "non_null" : 169,
+          "null" : 0,
+          "top" : [ {
+            "item" : "60607",
+            "count" : 20
+          }, {
+            "item" : "60639",
+            "count" : 19
+          }, {
+            "item" : "60641",
+            "count" : 18
+          }, {
+            "item" : "60613",
+            "count" : 17
+          }, {
+            "item" : "60618",
+            "count" : 16
+          }, {
+            "item" : "60652",
+            "count" : 15
+          }, {
+            "item" : "60617",
+            "count" : 14
+          }, {
+            "item" : "60630",
+            "count" : 13
+          }, {
+            "item" : "60624",
+            "count" : 12
+          }, {
+            "item" : "60621",
+            "count" : 11
+          }, {
+            "item" : "60666",
+            "count" : 10
+          }, {
+            "item" : "60609",
+            "count" : 9
+          }, {
+            "item" : "60642",
+            "count" : 8
+          }, {
+            "item" : "60638",
+            "count" : 7
+          }, {
+            "item" : "60601",
+            "count" : 6
+          }, {
+            "item" : "60603",
+            "count" : 5
+          }, {
+            "item" : "60606",
+            "count" : 4
+          }, {
+            "item" : "60611",
+            "count" : 3
+          }, {
+            "item" : "60637",
+            "count" : 2
+          }, {
+            "item" : "60647",
+            "count" : 1
+          } ],
+          "smallest" : "60290"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267249,
+        "name" : "Plus4",
+        "dataTypeName" : "text",
+        "fieldName" : "plus4",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663646,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 169
+        },
+        "format" : { }
+      }, {
+        "id" : 226267250,
+        "name" : "Station Phone",
+        "dataTypeName" : "text",
+        "fieldName" : "station_phone",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663647,
+        "width" : 256,
+        "cachedContents" : {
+          "largest" : "888-998-2546",
+          "non_null" : 144,
+          "null" : 25,
+          "top" : [ {
+            "item" : "312-997-2300",
+            "count" : 20
+          }, {
+            "item" : "773-889-8194",
+            "count" : 19
+          }, {
+            "item" : "773-286-4507",
+            "count" : 18
+          }, {
+            "item" : "773-493-1206",
+            "count" : 17
+          }, {
+            "item" : "773-528-3040",
+            "count" : 16
+          }, {
+            "item" : "773-445-3626",
+            "count" : 15
+          }, {
+            "item" : "773-889-0241",
+            "count" : 14
+          }, {
+            "item" : "773-528-0461",
+            "count" : 13
+          }, {
+            "item" : "773-585-8912",
+            "count" : 12
+          }, {
+            "item" : "888-758-4389",
+            "count" : 11
+          }, {
+            "item" : "773-955-9245",
+            "count" : 10
+          }, {
+            "item" : "773-935-7200",
+            "count" : 9
+          }, {
+            "item" : "800-832-6352",
+            "count" : 8
+          }, {
+            "item" : "773-282-6200",
+            "count" : 7
+          }, {
+            "item" : "312-567-8968",
+            "count" : 6
+          }, {
+            "item" : "312-374-1885",
+            "count" : 5
+          }, {
+            "item" : "888-998-2546",
+            "count" : 4
+          }, {
+            "item" : "888-656-0141",
+            "count" : 3
+          }, {
+            "item" : "866-809-4869",
+            "count" : 2
+          }, {
+            "item" : "773-776-8200",
+            "count" : 1
+          } ],
+          "smallest" : "312-335-1234  877-798-3752"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267251,
+        "name" : "Status Code",
+        "dataTypeName" : "text",
+        "fieldName" : "status_code",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663648,
+        "width" : 232,
+        "cachedContents" : {
+          "largest" : "E",
+          "non_null" : 169,
+          "null" : 0,
+          "top" : [ {
+            "item" : "E",
+            "count" : 20
+          } ],
+          "smallest" : "E"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267252,
+        "name" : "Expected Date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "expected_date",
+        "position" : 12,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 9663649,
+        "width" : 176,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 169
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 226267253,
+        "name" : "Groups With Access Code",
+        "dataTypeName" : "text",
+        "fieldName" : "groups_with_access_code",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663650,
+        "width" : 376,
+        "cachedContents" : {
+          "largest" : "Public - Credit card at all times",
+          "non_null" : 169,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Public",
+            "count" : 20
+          }, {
+            "item" : "Private - Government only",
+            "count" : 19
+          }, {
+            "item" : "Private",
+            "count" : 18
+          }, {
+            "item" : "Public - Credit card at all times",
+            "count" : 17
+          }, {
+            "item" : "Public - Call ahead",
+            "count" : 16
+          }, {
+            "item" : "Public - Card key at all times",
+            "count" : 15
+          } ],
+          "smallest" : "Private"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267254,
+        "name" : "Access Days Time",
+        "dataTypeName" : "text",
+        "fieldName" : "access_days_time",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663651,
+        "width" : 292,
+        "cachedContents" : {
+          "largest" : "MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours",
+          "non_null" : 147,
+          "null" : 22,
+          "top" : [ {
+            "item" : "6am-4pm M-F",
+            "count" : 20
+          }, {
+            "item" : "7am-7pm M-Th and Sat, 7am-8pm F, 9am-5pm Sun",
+            "count" : 19
+          }, {
+            "item" : "7am-7pm M-Th and Sat, 7am-8pm F, 8am-6pm Sun",
+            "count" : 18
+          }, {
+            "item" : "24 hours daily",
+            "count" : 17
+          }, {
+            "item" : "5:30am-10pm M-F, 6am-10pm Sat, 7am-8pm Sun",
+            "count" : 16
+          }, {
+            "item" : "Fleet use only",
+            "count" : 15
+          }, {
+            "item" : "Employee and fleet use only",
+            "count" : 14
+          }, {
+            "item" : "24 hours daily; call 866-809-4869 for Clean Energy card",
+            "count" : 13
+          }, {
+            "item" : "24 hours daily; pay lot",
+            "count" : 12
+          }, {
+            "item" : "Employee use only",
+            "count" : 11
+          }, {
+            "item" : "Dealership business hours",
+            "count" : 10
+          }, {
+            "item" : "MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours",
+            "count" : 9
+          }, {
+            "item" : "24 hours daily; customers may set up a fuel account to pay for fuel; call 888-656-0141 to set up a fleet account",
+            "count" : 8
+          }, {
+            "item" : "MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified",
+            "count" : 7
+          }, {
+            "item" : "24 hours daily; EVgo network subscription and key fob required",
+            "count" : 6
+          }, {
+            "item" : "24 hours daily; for Tesla use only; for guest use only",
+            "count" : 5
+          }, {
+            "item" : "24 hours daily; for Tesla use only; for guest use only; see valet for access",
+            "count" : 4
+          }, {
+            "item" : "8am-5pm daily; mainly for employee use",
+            "count" : 3
+          }, {
+            "item" : "ComEd fleet use only",
+            "count" : 2
+          }, {
+            "item" : "24 hours daily; for Tesla use only",
+            "count" : 1
+          } ],
+          "smallest" : "24 hours daily"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267255,
+        "name" : "Cards Accepted",
+        "dataTypeName" : "text",
+        "fieldName" : "cards_accepted",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663652,
+        "width" : 268,
+        "cachedContents" : {
+          "largest" : "D M V CleanEnergy FuelMan Voyager Wright_Exp",
+          "non_null" : 18,
+          "null" : 151,
+          "top" : [ {
+            "item" : "Cash A D M V",
+            "count" : 20
+          }, {
+            "item" : "Cash A D M V Wright_Exp",
+            "count" : 19
+          }, {
+            "item" : "Cash A D M V Voyager Wright_Exp",
+            "count" : 18
+          }, {
+            "item" : "Cash A D M V FuelMan Voyager Wright_Exp",
+            "count" : 17
+          }, {
+            "item" : "D M V CleanEnergy FuelMan Voyager Wright_Exp",
+            "count" : 16
+          }, {
+            "item" : "A D M V",
+            "count" : 15
+          }, {
+            "item" : "A D M V Voyager Wright_Exp",
+            "count" : 14
+          }, {
+            "item" : "A D M V FuelMan GasCard Voyager Wright_Exp",
+            "count" : 13
+          }, {
+            "item" : "Cash Checks A D M V Voyager Wright_Exp",
+            "count" : 12
+          } ],
+          "smallest" : "A D M V"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267256,
+        "name" : "BD Blends",
+        "dataTypeName" : "text",
+        "fieldName" : "bd_blends",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663653,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 169
+        },
+        "format" : { }
+      }, {
+        "id" : 226267257,
+        "name" : "NG Fill Type Code",
+        "dataTypeName" : "text",
+        "fieldName" : "ng_fill_type_code",
+        "position" : 17,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663654,
+        "width" : 304,
+        "cachedContents" : {
+          "largest" : "Q",
+          "non_null" : 12,
+          "null" : 157,
+          "top" : [ {
+            "item" : "Q",
+            "count" : 20
+          }, {
+            "item" : "B",
+            "count" : 19
+          } ],
+          "smallest" : "B"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267258,
+        "name" : "NG PSI",
+        "dataTypeName" : "text",
+        "fieldName" : "ng_psi",
+        "position" : 18,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663655,
+        "width" : 172,
+        "cachedContents" : {
+          "largest" : "3600",
+          "non_null" : 12,
+          "null" : 157,
+          "top" : [ {
+            "item" : "3600",
+            "count" : 20
+          } ],
+          "smallest" : "3600"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267259,
+        "name" : "EV Level1 EVSE Num",
+        "dataTypeName" : "number",
+        "fieldName" : "ev_level1_evse_num",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9663656,
+        "width" : 316,
+        "cachedContents" : {
+          "largest" : "3",
+          "non_null" : 15,
+          "average" : "1.666666666666667",
+          "null" : 154,
+          "top" : [ {
+            "item" : "1",
+            "count" : 20
+          }, {
+            "item" : "2",
+            "count" : 19
+          }, {
+            "item" : "3",
+            "count" : 18
+          } ],
+          "smallest" : "1",
+          "sum" : "25"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267260,
+        "name" : "EV Level2 EVSE Num",
+        "dataTypeName" : "number",
+        "fieldName" : "ev_level2_evse_num",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9663657,
+        "width" : 316,
+        "cachedContents" : {
+          "largest" : "19",
+          "non_null" : 126,
+          "average" : "2.253968253968254",
+          "null" : 43,
+          "top" : [ {
+            "item" : "2",
+            "count" : 20
+          }, {
+            "item" : "4",
+            "count" : 19
+          }, {
+            "item" : "9",
+            "count" : 18
+          }, {
+            "item" : "19",
+            "count" : 17
+          }, {
+            "item" : "1",
+            "count" : 16
+          }, {
+            "item" : "3",
+            "count" : 15
+          }, {
+            "item" : "6",
+            "count" : 14
+          }, {
+            "item" : "10",
+            "count" : 13
+          } ],
+          "smallest" : "1",
+          "sum" : "284"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267261,
+        "name" : "EV DC Fast Count",
+        "dataTypeName" : "number",
+        "fieldName" : "ev_dc_fast_count",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9663658,
+        "width" : 292,
+        "cachedContents" : {
+          "largest" : "2",
+          "non_null" : 10,
+          "average" : "1.5",
+          "null" : 159,
+          "top" : [ {
+            "item" : "1",
+            "count" : 20
+          }, {
+            "item" : "2",
+            "count" : 19
+          } ],
+          "smallest" : "1",
+          "sum" : "15"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267262,
+        "name" : "EV Other Info",
+        "dataTypeName" : "text",
+        "fieldName" : "ev_other_info",
+        "position" : 22,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663659,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 169
+        },
+        "format" : { }
+      }, {
+        "id" : 226267263,
+        "name" : "EV Network",
+        "dataTypeName" : "text",
+        "fieldName" : "ev_network",
+        "position" : 23,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663660,
+        "width" : 220,
+        "cachedContents" : {
+          "largest" : "Tesla",
+          "non_null" : 118,
+          "null" : 51,
+          "top" : [ {
+            "item" : "ChargePoint Network",
+            "count" : 20
+          }, {
+            "item" : "Blink Network",
+            "count" : 19
+          }, {
+            "item" : "SemaCharge Network",
+            "count" : 18
+          }, {
+            "item" : "eVgo Network",
+            "count" : 17
+          }, {
+            "item" : "Tesla",
+            "count" : 16
+          }, {
+            "item" : "GE WattStation",
+            "count" : 15
+          } ],
+          "smallest" : "Blink Network"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267264,
+        "name" : "EV Network Web",
+        "dataTypeName" : "url",
+        "fieldName" : "ev_network_web",
+        "position" : 24,
+        "renderTypeName" : "url",
+        "tableColumnId" : 9663661,
+        "width" : 268,
+        "cachedContents" : {
+          "largest" : {
+            "url" : "https://www.gewattstation.com"
+          },
+          "non_null" : 118,
+          "null" : 51,
+          "top" : [ {
+            "item" : {
+              "url" : "http://www.chargepoint.com/"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "url" : "http://www.blinknetwork.com/"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "url" : "http://www.semacharge.com/"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "url" : "https://www.evgonetwork.com/"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "url" : "http://www.teslamotors.com/supercharger"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "url" : "https://www.gewattstation.com"
+            },
+            "count" : 15
+          } ],
+          "smallest" : {
+            "url" : "http://www.blinknetwork.com/"
+          }
+        },
+        "format" : {
+          "align" : "left"
+        },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 226267265,
+        "name" : "Geocode Status",
+        "dataTypeName" : "text",
+        "fieldName" : "geocode_status",
+        "position" : 25,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663662,
+        "width" : 268,
+        "cachedContents" : {
+          "largest" : "GPS",
+          "non_null" : 169,
+          "null" : 0,
+          "top" : [ {
+            "item" : "200-8",
+            "count" : 20
+          }, {
+            "item" : "GPS",
+            "count" : 19
+          }, {
+            "item" : "200-9",
+            "count" : 18
+          } ],
+          "smallest" : "200-8"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267266,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 26,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9663663,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "42.017179",
+          "non_null" : 169,
+          "average" : "41.88821249680265",
+          "null" : 0,
+          "top" : [ {
+            "item" : "41.831349",
+            "count" : 20
+          }, {
+            "item" : "41.8815973",
+            "count" : 19
+          }, {
+            "item" : "41.8679237365723",
+            "count" : 18
+          }, {
+            "item" : "41.9245874",
+            "count" : 17
+          }, {
+            "item" : "42.0036555",
+            "count" : 16
+          } ],
+          "smallest" : "41.6635406",
+          "sum" : "7079.1079119596484"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267267,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 27,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9663664,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "-87.5613058",
+          "non_null" : 169,
+          "average" : "-87.66110737473823",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-87.7170515",
+            "count" : 20
+          }, {
+            "item" : "-87.6365143",
+            "count" : 19
+          }, {
+            "item" : "-87.6381912231445",
+            "count" : 18
+          }, {
+            "item" : "-87.657365",
+            "count" : 17
+          }, {
+            "item" : "-87.6787926",
+            "count" : 16
+          } ],
+          "smallest" : "-87.9236017",
+          "sum" : "-14814.7271463307617"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267268,
+        "name" : "Date Last Confirmed",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "date_last_confirmed",
+        "position" : 28,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 9663665,
+        "width" : 328,
+        "cachedContents" : {
+          "largest" : "2017-04-08T00:00:00",
+          "non_null" : 169,
+          "null" : 0,
+          "top" : [ {
+            "item" : "2016-11-02T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2017-04-08T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2016-03-07T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2015-03-04T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2016-08-03T00:00:00",
+            "count" : 16
+          }, {
+            "item" : "2017-01-11T00:00:00",
+            "count" : 15
+          }, {
+            "item" : "2017-03-03T00:00:00",
+            "count" : 14
+          }, {
+            "item" : "2016-05-09T00:00:00",
+            "count" : 13
+          } ],
+          "smallest" : "2015-03-04T00:00:00"
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 226267269,
+        "name" : "Updated At",
+        "dataTypeName" : "date",
+        "fieldName" : "updated_at",
+        "position" : 29,
+        "renderTypeName" : "date",
+        "tableColumnId" : 9663667,
+        "width" : 220,
+        "cachedContents" : {
+          "largest" : 1491628002,
+          "non_null" : 169,
+          "null" : 0,
+          "top" : [ {
+            "item" : 1491625241,
+            "count" : 20
+          }, {
+            "item" : 1491627519,
+            "count" : 19
+          }, {
+            "item" : 1491627525,
+            "count" : 18
+          }, {
+            "item" : 1484679063,
+            "count" : 17
+          }, {
+            "item" : 1491620200,
+            "count" : 16
+          } ],
+          "smallest" : 1469023626
+        },
+        "format" : { }
+      }, {
+        "id" : 226267270,
+        "name" : "Owner Type Code",
+        "dataTypeName" : "text",
+        "fieldName" : "owner_type_code",
+        "position" : 30,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663668,
+        "width" : 280,
+        "cachedContents" : {
+          "largest" : "T",
+          "non_null" : 58,
+          "null" : 111,
+          "top" : [ {
+            "item" : "P",
+            "count" : 20
+          }, {
+            "item" : "LG",
+            "count" : 19
+          }, {
+            "item" : "T",
+            "count" : 18
+          } ],
+          "smallest" : "LG"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267271,
+        "name" : "Federal Agency ID",
+        "dataTypeName" : "number",
+        "fieldName" : "federal_agency_id",
+        "position" : 31,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9663669,
+        "width" : 304,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 169,
+          "sum" : "0"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267272,
+        "name" : "Federal Agency Name",
+        "dataTypeName" : "text",
+        "fieldName" : "federal_agency_name",
+        "position" : 32,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663670,
+        "width" : 328,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 169
+        },
+        "format" : { }
+      }, {
+        "id" : 226267273,
+        "name" : "Open Date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "open_date",
+        "position" : 33,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 9663671,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "2016-06-01T00:00:00",
+          "non_null" : 52,
+          "null" : 117,
+          "top" : [ {
+            "item" : "2000-08-15T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2001-01-15T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2007-09-15T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2008-03-15T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2008-05-15T00:00:00",
+            "count" : 16
+          }, {
+            "item" : "2008-06-15T00:00:00",
+            "count" : 15
+          }, {
+            "item" : "2010-03-15T00:00:00",
+            "count" : 14
+          }, {
+            "item" : "2008-10-15T00:00:00",
+            "count" : 13
+          }, {
+            "item" : "2008-07-15T00:00:00",
+            "count" : 12
+          }, {
+            "item" : "2009-06-15T00:00:00",
+            "count" : 11
+          }, {
+            "item" : "2009-08-15T00:00:00",
+            "count" : 10
+          }, {
+            "item" : "2011-12-01T00:00:00",
+            "count" : 9
+          }, {
+            "item" : "2011-11-15T00:00:00",
+            "count" : 8
+          }, {
+            "item" : "2011-11-10T00:00:00",
+            "count" : 7
+          }, {
+            "item" : "2012-03-31T00:00:00",
+            "count" : 6
+          }, {
+            "item" : "2011-10-15T00:00:00",
+            "count" : 5
+          }, {
+            "item" : "2010-05-30T00:00:00",
+            "count" : 4
+          }, {
+            "item" : "2010-12-31T00:00:00",
+            "count" : 3
+          }, {
+            "item" : "2011-05-15T00:00:00",
+            "count" : 2
+          }, {
+            "item" : "2011-02-11T00:00:00",
+            "count" : 1
+          } ],
+          "smallest" : "2000-08-15T00:00:00"
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 226267274,
+        "name" : "Hydrogen Status Link",
+        "dataTypeName" : "text",
+        "fieldName" : "hydrogen_status_link",
+        "position" : 34,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663672,
+        "width" : 340,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 169
+        },
+        "format" : { }
+      }, {
+        "id" : 226267275,
+        "name" : "NG Vehicle Class",
+        "dataTypeName" : "text",
+        "fieldName" : "ng_vehicle_class",
+        "position" : 35,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663673,
+        "width" : 292,
+        "cachedContents" : {
+          "largest" : "MD",
+          "non_null" : 12,
+          "null" : 157,
+          "top" : [ {
+            "item" : "HD",
+            "count" : 20
+          }, {
+            "item" : "MD",
+            "count" : 19
+          } ],
+          "smallest" : "HD"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267276,
+        "name" : "LPG Primary",
+        "dataTypeName" : "text",
+        "fieldName" : "lpg_primary",
+        "position" : 36,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663674,
+        "width" : 232,
+        "cachedContents" : {
+          "largest" : "true",
+          "non_null" : 6,
+          "null" : 163,
+          "top" : [ {
+            "item" : "true",
+            "count" : 20
+          }, {
+            "item" : "false",
+            "count" : 19
+          } ],
+          "smallest" : "false"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267277,
+        "name" : "E85 Blender Pump",
+        "dataTypeName" : "text",
+        "fieldName" : "e85_blender_pump",
+        "position" : 37,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9663675,
+        "width" : 292,
+        "cachedContents" : {
+          "largest" : "false",
+          "non_null" : 18,
+          "null" : 151,
+          "top" : [ {
+            "item" : "false",
+            "count" : 20
+          } ],
+          "smallest" : "false"
+        },
+        "format" : { }
+      }, {
+        "id" : 226267278,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 38,
+        "renderTypeName" : "location",
+        "tableColumnId" : 9663676,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "42.0036555",
+            "longitude" : "-87.6787926"
+          },
+          "non_null" : 169,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "41.831349",
+              "longitude" : "-87.7170515"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "41.8815973",
+              "longitude" : "-87.6365143"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "41.8679237365723",
+              "longitude" : "-87.6381912231445"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "41.9245874",
+              "longitude" : "-87.657365"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "42.0036555",
+              "longitude" : "-87.6787926"
+            },
+            "count" : 16
+          } ],
+          "smallest" : {
+            "latitude" : "41.8872821",
+            "longitude" : "-87.6511547"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Metadata" : {
+            "Time Period" : "Current",
+            "Frequency" : "Daily"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "Fuel Location",
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "id"
+          } ],
+          "where" : {
+            "children" : [ {
+              "value" : "Chicago",
+              "operator" : "EQUALS",
+              "metadata" : {
+                "freeform" : true,
+                "tableColumnId" : {
+                  "806697" : 9663643
+                },
+                "operator" : "EQUALS"
+              },
+              "columnFieldName" : "city"
+            }, {
+              "value" : "IL",
+              "operator" : "EQUALS",
+              "metadata" : {
+                "freeform" : true,
+                "tableColumnId" : {
+                  "806697" : 9663644
+                },
+                "operator" : "EQUALS"
+              },
+              "columnFieldName" : "state"
+            } ],
+            "operator" : "AND",
+            "metadata" : {
+              "unifiedVersion" : 2
+            }
+          }
+        },
+        "rdfSubject" : "0",
+        "rowIdentifier" : "226267241",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "vewm-vupz",
+        "displayName" : "Jonathan Levy",
+        "roleName" : "administrator",
+        "screenName" : "Jonathan Levy",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 226267246,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "Chicago"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            } ],
+            "metadata" : {
+              "tableColumnId" : {
+                "806697" : 9663643
+              },
+              "operator" : "EQUALS"
+            }
+          }, {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 226267247,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "IL"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            } ],
+            "metadata" : {
+              "tableColumnId" : {
+                "806697" : 9663644
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "metadata" : {
+            "unifiedVersion" : 2
+          }
+        },
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 226267241,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "3qqc-w7ag",
+        "displayName" : "Tom Schenk Jr",
+        "lastNotificationSeenAt" : 1491330280,
+        "profileImageUrlLarge" : "/api/users/3qqc-w7ag/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/3qqc-w7ag/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/3qqc-w7ag/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Tom Schenk Jr",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "sustainability", "transportation" ],
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "OR",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 226267246,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "Chicago"
+            } ],
+            "metadata" : {
+              "freeform" : true
+            }
+          } ],
+          "metadata" : {
+            "tableColumnId" : {
+              "806697" : 9663643
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "type" : "operator",
+          "value" : "OR",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 226267247,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "IL"
+            } ],
+            "metadata" : {
+              "freeform" : true
+            }
+          } ],
+          "metadata" : {
+            "tableColumnId" : {
+              "806697" : 9663644
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "metadata" : {
+          "unifiedVersion" : 2
+        }
+      }
+    }
+  },
+  "data" : [ [ 504009, "ADEB3D09-FABC-4666-9568-72E6752132C2", 504009, 1491822035, "878752", 1491822035, "878752", null, "15014", "LPG", "AmeriGas", "310 N Sangamon St", "4 blocks west of Interstate 90/94", "Chicago", "IL", "60607", null, "312-997-2300", "E", null, "Public", "6am-4pm M-F", "Cash A D M V", null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.8872821", "-87.6511547", "2016-11-02T00:00:00", 1484686087, "P", null, null, null, null, null, "true", null, [ null, "41.8872821", "-87.6511547", null, false ] ]
+, [ 504015, "C72DADE1-7583-4E46-A591-15E7E56919FC", 504015, 1491822035, "878752", 1491822035, "878752", null, "19924", "LPG", "U-Haul", "1700 N Cicero Ave", "Between North and Grand", "Chicago", "IL", "60639", null, "773-889-8194", "E", null, "Public", "7am-7pm M-Th and Sat, 7am-8pm F, 9am-5pm Sun", "Cash A D M V", null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.9119446", "-87.7463825", "2016-11-02T00:00:00", 1484680966, "P", null, null, null, null, null, "false", null, [ null, "41.9119446", "-87.7463825", null, false ] ]
+, [ 504016, "1E68587C-46BA-4EA4-BA35-B08029AC73BF", 504016, 1491822035, "878752", 1491822035, "878752", null, "19925", "LPG", "U-Haul", "4301 N Cicero Ave", null, "Chicago", "IL", "60641", null, "773-286-4507", "E", null, "Public", "7am-7pm M-Th and Sat, 7am-8pm F, 8am-6pm Sun", "Cash A D M V", null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.958736", "-87.7471437", "2016-11-02T00:00:00", 1484680991, "P", null, null, null, null, null, "false", null, [ null, "41.958736", "-87.7471437", null, false ] ]
+, [ 504017, "FD2C2B48-2A05-4F17-B791-A87C35F25344", 504017, 1491822035, "878752", 1491822035, "878752", null, "19926", "LPG", "U-Haul", "1650 E 71st St", "At Stoney Island", "Chicago", "IL", "60649", null, "773-493-1206", "E", null, "Public", "7am-7pm M-Th and Sat, 7am-8pm F, 9am-5pm Sun", "Cash A D M V", null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.7665149", "-87.584051", "2016-11-02T00:00:00", 1484682660, "P", null, null, null, null, null, "false", null, [ null, "41.7665149", "-87.584051", null, false ] ]
+, [ 504019, "65098211-F572-45A8-A564-4684F8225391", 504019, 1491822035, "878752", 1491822035, "878752", null, "20844", "E85", "Citgo", "4070 N Clark St", null, "Chicago", "IL", "60613", null, "773-528-3040", "E", null, "Public", "24 hours daily", "Cash A D M V Wright_Exp", null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.9561272", "-87.6636858", "2016-11-02T00:00:00", 1484682676, "P", null, null, "2000-08-15T00:00:00", null, null, null, "false", [ null, "41.9561272", "-87.6636858", null, false ] ]
+, [ 504020, "F434AF88-8BB3-4DA9-9495-8F1C60564652", 504020, 1491822035, "878752", 1491822035, "878752", null, "20845", "E85", "Kean Brothers Oil Co", "2632 W 111th St", "At Talman Ave", "Chicago", "IL", "60655", null, "773-445-3626", "E", null, "Public", "5:30am-10pm M-F, 6am-10pm Sat, 7am-8pm Sun", "Cash A D M V", null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.691997", "-87.687613", "2016-11-02T00:00:00", 1484678350, "P", null, null, "2001-01-15T00:00:00", null, null, null, "false", [ null, "41.691997", "-87.687613", null, false ] ]
+, [ 504056, "820153B8-8514-4A63-9D39-835DE36284EA", 504056, 1491822035, "878752", 1491822035, "878752", null, "32648", "E85", "Aisha Wash and Fuel Island - Citgo", "5549 W Diversey Ave", null, "Chicago", "IL", "60639", null, "773-889-0241", "E", null, "Public", "24 hours daily", "Cash A D M V Voyager Wright_Exp", null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.9310507", "-87.7659989", "2016-11-02T00:00:00", 1484682559, "P", null, null, "2007-09-15T00:00:00", null, null, null, "false", [ null, "41.9310507", "-87.7659989", null, false ] ]
+, [ 504059, "7D826B75-3F6B-4666-971C-49B55D0ADB32", 504059, 1491822035, "878752", 1491822035, "878752", null, "32958", "E85", "Mobil North Damen Mart", "2801 N Damen Ave", null, "Chicago", "IL", "60618", null, "773-528-0461", "E", null, "Public", "24 hours daily", "Cash A D M V Voyager Wright_Exp", null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.9325108", "-87.677964", "2016-11-02T00:00:00", 1484678328, "P", null, null, "2008-03-15T00:00:00", null, null, null, "false", [ null, "41.9325108", "-87.677964", null, false ] ]
+, [ 504061, "FC317941-A3C0-495E-9447-F55770F3C950", 504061, 1491822035, "878752", 1491822035, "878752", null, "33072", "E85", "Midway Mobil", "8145 S Pulaski", null, "Chicago", "IL", "60652", null, "773-585-8912", "E", null, "Public", "24 hours daily", "Cash A D M V FuelMan Voyager Wright_Exp", null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.7444381", "-87.7214556", "2016-11-02T00:00:00", 1484681203, "P", null, null, "2008-05-15T00:00:00", null, null, null, "false", [ null, "41.7444381", "-87.7214556", null, false ] ]
+, [ 504062, "D798ABC0-88D1-476F-8416-5502A27B0FD7", 504062, 1491822035, "878752", 1491822035, "878752", null, "33084", "E85", "City of Chicago FS#6", "10101 S Stoney Island", "101st and Stony Island", "Chicago", "IL", "60617", null, null, "E", null, "Private - Government only", null, null, null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.712605", "-87.58196", "2016-11-02T00:00:00", 1484682682, "LG", null, null, "2008-06-15T00:00:00", null, null, null, "false", [ null, "41.712605", "-87.58196", null, false ] ]
+, [ 504063, "121BEBF4-AE10-46A5-80E0-7EEEA2D8F7F2", 504063, 1491822035, "878752", 1491822035, "878752", null, "33085", "E85", "City of Chicago FS#5", "4833 W Sunnyside", "Sunnyside and Lamon", "Chicago", "IL", "60630", null, null, "E", null, "Private - Government only", null, null, null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.9625133", "-87.7490375", "2016-11-02T00:00:00", 1484682681, "LG", null, null, "2008-06-15T00:00:00", null, null, null, "false", [ null, "41.9625133", "-87.7490375", null, false ] ]
+, [ 504064, "5D7F3B7E-BB59-47C5-ABAC-23FABD22B342", 504064, 1491822035, "878752", 1491822035, "878752", null, "33086", "E85", "City of Chicago FS#3", "4233 W Ferdinand", "Ferdinand and Tripp", "Chicago", "IL", "60624", null, null, "E", null, "Private - Government only", null, null, null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.8893383", "-87.7303848", "2016-11-02T00:00:00", 1484680994, "LG", null, null, "2008-06-15T00:00:00", null, null, null, "false", [ null, "41.8893383", "-87.7303848", null, false ] ]
+, [ 504065, "0B909698-1886-457B-8EDF-3F5BC867974D", 504065, 1491822035, "878752", 1491822035, "878752", null, "33087", "E85", "City of Chicago FS#9", "25 W 65th St", "65th and State", "Chicago", "IL", "60621", null, null, "E", null, "Private - Government only", null, null, null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.776407", "-87.6262226", "2016-11-02T00:00:00", 1484686072, "LG", null, null, "2010-03-15T00:00:00", null, null, null, "false", [ null, "41.776407", "-87.6262226", null, false ] ]
+, [ 504066, "BE5EA920-2193-45E9-9A37-5802F4F3FBB2", 504066, 1491822035, "878752", 1491822035, "878752", null, "33088", "E85", "City of Chicago FS#7", "10000 W Montrose", "O'Hare Airport", "Chicago", "IL", "60666", null, null, "E", null, "Private - Government only", null, null, null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.9593847", "-87.8394487", "2016-11-02T00:00:00", 1484681238, "LG", null, null, "2008-06-15T00:00:00", null, null, null, "false", [ null, "41.9593847", "-87.8394487", null, false ] ]
+, [ 504067, "4A7683F8-C2A0-4FA7-AA8F-270AD738912F", 504067, 1491822035, "878752", 1491822035, "878752", null, "33089", "E85", "City of Chicago FS#4", "3746 S Iron", "Iron and 37th", "Chicago", "IL", "60609", null, null, "E", null, "Private - Government only", null, null, null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.8257961", "-87.6593772", "2016-11-02T00:00:00", 1484682680, "LG", null, null, "2008-10-15T00:00:00", null, null, null, "false", [ null, "41.8257961", "-87.6593772", null, false ] ]
+, [ 504068, "A76DF15C-E33F-4D7C-A29E-92BCE160A143", 504068, 1491822035, "878752", 1491822035, "878752", null, "33141", "CNG", "City of Chicago FS#6", "10101 S Stoney Island", "101st and Stony Island", "Chicago", "IL", "60617", null, null, "E", null, "Private - Government only", null, null, null, "Q", "3600", null, null, null, null, null, [ null, null ], "200-8", "41.712605", "-87.58196", "2016-11-02T00:00:00", 1484682682, "LG", null, null, "2008-07-15T00:00:00", null, "HD", null, null, [ null, "41.712605", "-87.58196", null, false ] ]
+, [ 504069, "53C4AE8C-E3F7-4858-9228-CFFCCA8D5AE5", 504069, 1491822035, "878752", 1491822035, "878752", null, "33142", "CNG", "City of Chicago FS#5", "4833 W Sunnyside", "Sunnyside and Lamon", "Chicago", "IL", "60630", null, null, "E", null, "Private - Government only", null, null, null, "Q", "3600", null, null, null, null, null, [ null, null ], "200-8", "41.9625133", "-87.7490375", "2016-11-02T00:00:00", 1484682681, "LG", null, null, "2008-07-15T00:00:00", null, "HD", null, null, [ null, "41.9625133", "-87.7490375", null, false ] ]
+, [ 504070, "79E822D9-E5CE-4632-A793-D0460C2F8C6B", 504070, 1491822035, "878752", 1491822035, "878752", null, "33143", "CNG", "City of Chicago FS#3", "4233 W Ferdinand", "Ferdinand and Tripp", "Chicago", "IL", "60624", null, null, "E", null, "Private - Government only", null, null, null, "Q", "3600", null, null, null, null, null, [ null, null ], "200-8", "41.8893383", "-87.7303848", "2016-11-02T00:00:00", 1484680994, "LG", null, null, "2008-07-15T00:00:00", null, "HD", null, null, [ null, "41.8893383", "-87.7303848", null, false ] ]
+, [ 504071, "B1E334BF-727C-4E0C-A71D-72E3CFA39AB4", 504071, 1491822035, "878752", 1491822035, "878752", null, "33144", "CNG", "City of Chicago FS#9", "25 W 65th St", "65th and State", "Chicago", "IL", "60621", null, null, "E", null, "Private - Government only", null, null, null, "Q", "3600", null, null, null, null, null, [ null, null ], "200-8", "41.776407", "-87.6262226", "2016-11-02T00:00:00", 1484686072, "LG", null, null, "2008-07-15T00:00:00", null, "HD", null, null, [ null, "41.776407", "-87.6262226", null, false ] ]
+, [ 504072, "C6777AB1-1E85-4C38-92AD-8D8CCF1C6062", 504072, 1491822035, "878752", 1491822035, "878752", null, "33146", "CNG", "City of Chicago FS#4", "3746 S Iron", "Iron and 37th", "Chicago", "IL", "60609", null, null, "E", null, "Private - Government only", null, null, null, "Q", "3600", null, null, null, null, null, [ null, null ], "200-8", "41.8257961", "-87.6593772", "2016-11-02T00:00:00", 1484682680, "LG", null, null, "2008-10-15T00:00:00", null, "HD", null, null, [ null, "41.8257961", "-87.6593772", null, false ] ]
+, [ 504083, "2BDAAE06-F40E-4AD8-98D8-B919FBB55091", 504083, 1491822035, "878752", 1491822035, "878752", null, "35084", "E85", "City of Chicago FS#1", "1701 N Throop", "Throop and Wabansia", "Chicago", "IL", "60642", null, null, "E", null, "Private - Government only", null, null, null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.9138946", "-87.6618722", "2016-11-02T00:00:00", 1484680993, "LG", null, null, "2009-06-15T00:00:00", null, null, null, "false", [ null, "41.9138946", "-87.6618722", null, false ] ]
+, [ 504086, "9414D335-B7A8-4B12-A84B-343ED42FA120", 504086, 1491822035, "878752", 1491822035, "878752", null, "35270", "ELEC", "City of Chicago", "1685 N Throop St", null, "Chicago", "IL", "60642", null, null, "E", null, "Private", "Fleet use only", null, null, null, null, "1", null, null, null, null, [ null, null ], "GPS", "41.91435", "-87.6622", "2016-11-02T00:00:00", 1484680054, "LG", null, null, "2009-08-15T00:00:00", null, null, null, null, [ null, "41.91435", "-87.6622", null, false ] ]
+, [ 504093, "30009273-32B7-4085-B2BA-4BCBD7B6403E", 504093, 1491822035, "878752", 1491822035, "878752", null, "36307", "CNG", "City of Chicago FS#1", "1701 N Throop", "Throop and Wabansia", "Chicago", "IL", "60642", null, null, "E", null, "Private - Government only", null, null, null, "Q", "3600", null, null, null, null, null, [ null, null ], "200-8", "41.9138946", "-87.6618722", "2016-11-02T00:00:00", 1484680993, "LG", null, null, "2011-12-01T00:00:00", null, "HD", null, null, [ null, "41.9138946", "-87.6618722", null, false ] ]
+, [ 504094, "B8EFA7EB-DF9A-445B-B0C8-ECF5D851C002", 504094, 1491822035, "878752", 1491822035, "878752", null, "36318", "E85", "City of Chicago FS#2", "6445 N Ravenswood", "Devon and Ravenswood", "Chicago", "IL", "60626", null, null, "E", null, "Private - Government only", null, null, null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.9992536", "-87.6750237", "2016-11-02T00:00:00", 1484686082, "LG", null, null, "2011-11-15T00:00:00", null, null, null, "false", [ null, "41.9992536", "-87.6750237", null, false ] ]
+, [ 504095, "41381F4D-B15F-4A61-A00D-EE61756F8E40", 504095, 1491822035, "878752", 1491822035, "878752", null, "36319", "E85", "City of Chicago FS#202", "5150 W 63rd St", "63rd and Laramie", "Chicago", "IL", "60638", null, null, "E", null, "Private - Government only", null, null, null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.7782784", "-87.7505572", "2016-11-02T00:00:00", 1484682653, "LG", null, null, "2011-11-10T00:00:00", null, null, null, "false", [ null, "41.7782784", "-87.7505572", null, false ] ]
+, [ 504096, "7AC06CE9-EB33-4161-8BCA-C03CDBAE8F3A", 504096, 1491822035, "878752", 1491822035, "878752", null, "36320", "E85", "City of Chicago FS#205", "3245 N Campbell", "Belmont & Western", "Chicago", "IL", "60618", null, null, "E", null, "Private - Government only", null, null, null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.9408146", "-87.6901941", "2016-11-02T00:00:00", 1484681239, "LG", null, null, "2012-03-31T00:00:00", null, null, null, "false", [ null, "41.9408146", "-87.6901941", null, false ] ]
+, [ 504097, "84A3EF0B-B1D0-46F9-B063-71EDFF3D3457", 504097, 1491822035, "878752", 1491822035, "878752", null, "36321", "E85", "City of Chicago FS#8", "10420 S Vincennes", "104th and Vincennes", "Chicago", "IL", "60643", null, null, "E", null, "Private - Government only", null, null, null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.7039587", "-87.6570837", "2016-11-02T00:00:00", 1484681014, "LG", null, null, "2011-10-15T00:00:00", null, null, null, "false", [ null, "41.7039587", "-87.6570837", null, false ] ]
+, [ 504098, "C243EF65-7FBC-4D39-934E-8A28ADD0863C", 504098, 1491822035, "878752", 1491822035, "878752", null, "36361", "ELEC", "MILLENNIUM GRGS", "5 S Columbus Dr", "MILLENNIUM GRG1; Go down the ramp to the Millenium Garage, Turn Left", "Chicago", "IL", "60601", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, "1", null, null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8824425", "-87.6204453", "2017-04-10T00:00:00", 1491797138, null, null, null, null, null, null, null, null, [ null, "41.8824425", "-87.6204453", null, false ] ]
+, [ 504100, "7A3B4CE0-8266-436B-BAB7-0A474B128D15", 504100, 1491822035, "878752", 1491822035, "878752", null, "36611", "ELEC", "INTERPARK", "17 E Adams St", "ADAMS WABASH 1; Adams & Wabash Self-Park Garage   www.InterParkGreen.com\nADAMS WABASH 2; Adams & Wabash Self-Park Garage  www.InterParkGreen.com", "Chicago", "IL", "60603", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, "2", "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.879502", "-87.626584", "2017-04-10T00:00:00", 1491797082, null, null, null, null, null, null, null, null, [ null, "41.879502", "-87.626584", null, false ] ]
+, [ 504101, "3BD19F1B-6F76-4970-9A36-A3B76C1310B2", 504101, 1491822035, "878752", 1491822035, "878752", null, "36613", "ELEC", "INTERPARK", "211 W Adams St", "WILLIS TOWER 1; ChargePoint Station Located on North Side of Third (3rd) Floor\nWILLIS TOWER W; ChargePoint Station Located on North Side of Third (3rd) Floor", "Chicago", "IL", "60606", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "4", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.879355", "-87.634431", "2017-04-10T00:00:00", 1491792907, null, null, null, null, null, null, null, null, [ null, "41.879355", "-87.634431", null, false ] ]
+, [ 504102, "39128869-8F18-45C6-B9B1-8CD13492A215", 504102, 1491822035, "878752", 1491822035, "878752", null, "36614", "ELEC", "INTERPARK", "230 W Washington St", "WASH FRANK NEW", "Chicago", "IL", "60606", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8834035", "-87.635081", "2017-04-10T00:00:00", 1491793576, null, null, null, null, null, null, null, null, [ null, "41.8834035", "-87.635081", null, false ] ]
+, [ 504103, "89596B06-8F42-4767-8C6B-6309E02A5E7A", 504103, 1491822035, "878752", 1491822035, "878752", null, "36615", "ELEC", "INTERPARK", "20 E Randolph St", "20 E RANDOLPH 2; Wabash-Randolph Self-Park Garage  www.InterParkGreen.com\n20 E RANDOLPH 1; Wabash-Randolph Self-Park Garage  www.InterParkGreen.com ", "Chicago", "IL", "60601", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, "2", "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "41.884535", "-87.627266", "2017-04-10T00:00:00", 1491797079, null, null, null, null, null, null, null, null, [ null, "41.884535", "-87.627266", null, false ] ]
+, [ 504104, "D7CE6EBB-07A8-4051-98D8-19E417E5C46E", 504104, 1491822035, "878752", 1491822035, "878752", null, "36617", "ELEC", "INTERPARK", "177 N Wells St", "LAKE & WELLS 1; Lake Wells Self-Park Garage  www.InterParkGreen.com\nLAKE & WELLS 2; Lake Wells Self-Park Garage  www.InterParkGreen.com", "Chicago", "IL", "60606", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, "2", "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.885342", "-87.633904", "2017-04-10T00:00:00", 1491797084, null, null, null, null, null, null, null, null, [ null, "41.885342", "-87.633904", null, false ] ]
+, [ 504105, "48713E9A-2513-421F-984C-55DE31E010FC", 504105, 1491822035, "878752", 1491822035, "878752", null, "36619", "ELEC", "INTERPARK", "50 E Ohio St", "50 EAST OHIO 1; Located on the east center ramp 4th floor\n50 EAST OHIO 2; Located on east center ramp 4th floor", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, "2", "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.892519", "-87.626088", "2017-04-10T00:00:00", 1491797084, null, null, null, null, null, null, null, null, [ null, "41.892519", "-87.626088", null, false ] ]
+, [ 504109, "486AE1A2-2D34-431B-8A50-44EAD076E00B", 504109, 1491822035, "878752", 1491822035, "878752", null, "36912", "E85", "Mobil", "850 E 63rd St", null, "Chicago", "IL", "60637", null, "773-955-9245", "E", null, "Public", "24 hours daily", "Cash A D M V FuelMan Voyager Wright_Exp", null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.780809", "-87.603818", "2016-11-02T00:00:00", 1484680035, "P", null, null, "2010-05-30T00:00:00", null, null, null, "false", [ null, "41.780809", "-87.603818", null, false ] ]
+, [ 504113, "3A4A481E-06D4-4F14-A23B-FC99EE9C9349", 504113, 1491822035, "878752", 1491822035, "878752", null, "37164", "ELEC", "INTERPARK", "318 S Federal St", "SOUTH LOOP 2; South Loop Self-Park Garage  www.InterParkGreen.com\nSOUTH LOOP 1; South Loop Self-Park Garage  www.InterParkGreen.com ", "Chicago", "IL", "60604", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, "2", "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.877807", "-87.629771", "2017-04-10T00:00:00", 1491797081, null, null, null, null, null, null, null, null, [ null, "41.877807", "-87.629771", null, false ] ]
+, [ 504116, "5CCF4E16-D5B1-4478-A8C3-46125345C947", 504116, 1491822035, "878752", 1491822035, "878752", null, "38850", "ELEC", "ComEd", "3500 N California Ave", null, "Chicago", "IL", "60618", null, null, "E", null, "Private", "Employee and fleet use only", null, null, null, null, null, "9", null, null, null, [ null, null ], "GPS", "41.94629288", "-87.69982", "2016-03-07T00:00:00", 1484683106, "T", null, null, "2010-12-31T00:00:00", null, null, null, null, [ null, "41.94629288", "-87.69982", null, false ] ]
+, [ 504117, "4AD184DC-0502-4AA2-ADF9-6714D11481C1", 504117, 1491822035, "878752", 1491822035, "878752", null, "38851", "ELEC", "ComEd", "7601 S Lawndale Ave", null, "Chicago", "IL", "60652", null, null, "E", null, "Private", "Employee and fleet use only", null, null, null, null, null, "19", null, null, null, [ null, null ], "GPS", "41.75497055", "-87.71321", "2016-03-07T00:00:00", 1484681437, "T", null, null, "2010-12-31T00:00:00", null, null, null, null, [ null, "41.75497055", "-87.71321", null, false ] ]
+, [ 504118, "6F6B8772-1AF9-419E-8AD8-46CA3B249A81", 504118, 1491822035, "878752", 1491822035, "878752", null, "38852", "ELEC", "900 N MICHIGAN", "900 N Michigan Ave", "PLUG AND SHOP 4; Entrance off of Rush Street or Walton Street, Charging Station on First Level\nPLUG AND SHOP 1; Entrance off of Rush Street or Walton Street, Charging Station on First Level", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "4", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "41.899232", "-87.624204", "2017-04-10T00:00:00", 1491795038, null, null, null, null, null, null, null, null, [ null, "41.899232", "-87.624204", null, false ] ]
+, [ 504121, "0C3C4679-EAA8-4F85-ABC0-F8F23B5B49C1", 504121, 1491822035, "878752", 1491822035, "878752", null, "39186", "CNG", "Clean Energy - Marathon Gas", "3145 N Western Ave", null, "Chicago", "IL", "60618", null, "773-935-7200", "E", null, "Public - Credit card at all times", "24 hours daily; call 866-809-4869 for Clean Energy card", "D M V CleanEnergy FuelMan Voyager Wright_Exp", null, "Q", "3600", null, null, null, null, null, [ null, null ], "200-8", "41.9388927", "-87.6877", "2015-03-04T00:00:00", 1469023626, "P", null, null, "2011-05-15T00:00:00", null, "MD", null, null, [ null, "41.9388927", "-87.6877", null, false ] ]
+, [ 504126, "1738DD2B-602C-4B19-947D-261126487B35", 504126, 1491822035, "878752", 1491822035, "878752", null, "40794", "ELEC", "O'Hare Airport - Short Term Parking", "10000 Bessie Coleman Dr", "Located in row 2 on the first floor", "Chicago", "IL", "60666", null, "800-832-6352", "E", null, "Public - Credit card at all times", "24 hours daily; pay lot", "A D M V", null, null, null, null, "2", null, null, null, [ null, null ], "200-8", "41.9812916", "-87.8841607", "2016-11-02T00:00:00", 1484682582, "P", null, null, "2011-02-11T00:00:00", null, null, null, null, [ null, "41.9812916", "-87.8841607", null, false ] ]
+, [ 504127, "4B67DA1C-46EC-4F31-989A-6905205330F3", 504127, 1491822035, "878752", 1491822035, "878752", null, "40795", "ELEC", "JNS", "3222 N Milwaukee Ave", "WAL 3222 MILW 1; Located on the S. side of lot, east of entry\nWAL 3222 MILW 2; Located on the S. side of lot, east of entry", "Chicago", "IL", "60618", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.939651", "-87.724725", "2017-04-10T00:00:00", 1491796433, null, null, null, null, null, null, null, null, [ null, "41.939651", "-87.724725", null, false ] ]
+, [ 504128, "BC556251-AA5C-4DD4-91D3-27F09F99880F", 504128, 1491822035, "878752", 1491822035, "878752", null, "40796", "ELEC", "JNS", "5753 N Canfield Ave", "WAL CANFIELD 1; Located S. side of the Walgreens parking lot facing Higgins\nWAL CANFIELD 2; Located S. side of the Walgreens parking lot facing Higgins", "Chicago", "IL", "60631", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.984829", "-87.823255", "2017-04-10T00:00:00", 1491796889, null, null, null, null, null, null, null, null, [ null, "41.984829", "-87.823255", null, false ] ]
+, [ 504129, "68C8827A-A6F6-4816-949F-FD0B6A8C0922", 504129, 1491822035, "878752", 1491822035, "878752", null, "40799", "ELEC", "JNS", "2001 N. Milwaukee Ave.", "WAL MILWAUKEE 2; Located in the Northeast corner of the Walgreens parking lot", "Chicago", "IL", "60647", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.9181386", "-87.6886276", "2017-04-10T00:00:00", 1491796416, null, null, null, null, null, null, null, null, [ null, "41.9181386", "-87.6886276", null, false ] ]
+, [ 504130, "4C1F8932-51F7-4647-AD8D-F1C6F0CC98A4", 504130, 1491822035, "878752", 1491822035, "878752", null, "40800", "ELEC", "JNS", "2744 N California Ave", "WAL CALIFORNIA1; Located in front of the store next to the handicapped space", "Chicago", "IL", "60647", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.9316594", "-87.6979454", "2017-04-10T00:00:00", 1491796433, null, null, null, null, null, null, null, null, [ null, "41.9316594", "-87.6979454", null, false ] ]
+, [ 504131, "0E411F93-8019-4A9E-AF66-A801B08662E3", 504131, 1491822035, "878752", 1491822035, "878752", null, "40801", "ELEC", "JNS", "1649 W Belmont Ave", "WAL BELMONT 2; Located in the south east corner of lot\nWAL BELMONT 1; Located in the south east corner of lot", "Chicago", "IL", "60657", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.939691", "-87.670252", "2017-04-10T00:00:00", 1491796970, null, null, null, null, null, null, null, null, [ null, "41.939691", "-87.670252", null, false ] ]
+, [ 504132, "69291456-9D4D-42F1-8794-E9B75563D8C8", 504132, 1491822035, "878752", 1491822035, "878752", null, "40803", "ELEC", "JNS", "6140 N Western Ave", "WAL WESTERN 1; Located on apron in front of store", "Chicago", "IL", "60659", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.9934665", "-87.690114", "2017-04-10T00:00:00", 1491796434, null, null, null, null, null, null, null, null, [ null, "41.9934665", "-87.690114", null, false ] ]
+, [ 504137, "5FE4F848-036F-4667-AF5E-6E8A815815F1", 504137, 1491822035, "878752", 1491822035, "878752", null, "41000", "ELEC", "SOLDIER FIELD", "1448-1468 Museum Campus Dr", "LEVEL 3 UNIT1; Soldier Field:  North Garage Level 3 ", "Chicago", "IL", "60605", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, "1", "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8638", "-87.6157227", "2017-04-10T00:00:00", 1491796570, null, null, null, null, null, null, null, null, [ null, "41.8638", "-87.6157227", null, false ] ]
+, [ 504138, "242908A0-25C2-4323-927D-E086AC7A58B1", 504138, 1491822035, "878752", 1491822035, "878752", null, "41001", "ELEC", "SOLDIER FIELD", "448-462 E McFetridge Dr", "LEVEL 4 UNIT1; Soldier Field: North Garage Level 4", "Chicago", "IL", "60605", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, "1", "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.864151", "-87.6165848", "2017-04-10T00:00:00", 1491796528, null, null, null, null, null, null, null, null, [ null, "41.864151", "-87.6165848", null, false ] ]
+, [ 504140, "9368A112-FC60-4B5F-A6EF-9478C0EF9590", 504140, 1491822035, "878752", 1491822035, "878752", null, "41462", "ELEC", "JNS", "1350 N Lake Shore Dr", "1350 LAKE SHORE; Located in lower level of valet parking", "Chicago", "IL", "60610", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.9070322", "-87.6265173", "2017-04-10T00:00:00", 1491796368, null, null, null, null, null, null, null, null, [ null, "41.9070322", "-87.6265173", null, false ] ]
+, [ 504141, "6325A6B7-0066-4FFB-B945-99E4A10DEF0D", 504141, 1491822035, "878752", 1491822035, "878752", null, "41463", "ELEC", "JNS", "1130 S Michigan Ave", "1130 S MICHIGAN; Located directly next to entrance on left in valet station", "Chicago", "IL", "60605", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8684508", "-87.6246231", "2017-04-10T00:00:00", 1491796369, null, null, null, null, null, null, null, null, [ null, "41.8684508", "-87.6246231", null, false ] ]
+, [ 504142, "BC1556CE-BB47-44C3-8F1E-2777C8352C0A", 504142, 1491822035, "878752", 1491822035, "878752", null, "41464", "ELEC", "JNS", "750 N Rush St", "THE CHICAGOAN 2; Located on the 3rd floor of the garage in the NW Corner\nTHE CHICAGOAN 1; Located on the 3rd floor of the garage in the NW Corner", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.896286", "-87.625476", "2017-04-10T00:00:00", 1491796892, null, null, null, null, null, null, null, null, [ null, "41.896286", "-87.625476", null, false ] ]
+, [ 504162, "F66E8D0A-E117-46B3-85FF-F8F238582054", 504162, 1491822035, "878752", 1491822035, "878752", null, "42706", "ELEC", "JNS", "701 W Maxwell St", "UIC MAXWELL ST1; Located on first floor ramp, right side as you enter from Un\nUIC MAXWELL ST3; Located on first floor ramp, right side as you enter from Un\nUIC MAXWELL ST2; Located on first floor ramp, right side as you enter from Un", "Chicago", "IL", "60607", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "3", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "41.864836", "-87.645031", "2017-04-10T00:00:00", 1491796256, null, null, null, null, null, null, null, null, [ null, "41.864836", "-87.645031", null, false ] ]
+, [ 504163, "98B9270D-9BE2-4D8D-A183-4D1C6899232E", 504163, 1491822035, "878752", 1491822035, "878752", null, "42707", "ELEC", "JNS", "2301 W Irving Park Rd", "WAL IRVING PK 2; Located in center of parking lot near handicap spaces\nWAL IRVING PK 1; Located in center of parking lot near handicap spaces ", "Chicago", "IL", "60618", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.954021", "-87.686053", "2017-04-10T00:00:00", 1491796879, null, null, null, null, null, null, null, null, [ null, "41.954021", "-87.686053", null, false ] ]
+, [ 504173, "A77BC8BD-9B38-45D3-94BD-F071D03C3737", 504173, 1491822035, "878752", 1491822035, "878752", null, "43140", "ELEC", "JNS", "760 W Taylor St", "UIC HALSTED 1; Located on 1st level of SouthEast corner\nUIC HALSTED 2; Located on 1st level in SouthEast corner\nUIC HALSTED 3; Located on 1st level of Southeast corner", "Chicago", "IL", "60607", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "3", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "41.869724", "-87.646132", "2017-04-10T00:00:00", 1491796352, null, null, null, null, null, null, null, null, [ null, "41.869724", "-87.646132", null, false ] ]
+, [ 504174, "CA18F4CC-F2D7-4459-BE62-F36FAEF7143C", 504174, 1491822035, "878752", 1491822035, "878752", null, "43152", "ELEC", "JNS", "6201 S Cicero Ave", "MIDWAY CELL 1; Located on east side of parking lot between 61st and 62nd of", "Chicago", "IL", "60629", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.7815157", "-87.7418991", "2017-04-10T00:00:00", 1491796340, null, null, null, null, null, null, null, null, [ null, "41.7815157", "-87.7418991", null, false ] ]
+, [ 504175, "242068F6-363B-43A7-A118-014F307A6C0F", 504175, 1491822035, "878752", 1491822035, "878752", null, "43153", "ELEC", "JNS", "4799 W 54th St", "MIDWAY LONG 1; Located on ground floor of long term garage off 55th S Wall\nMIDWAY LONG 2; Located on ground floor of long term garage off 55th S Wall", "Chicago", "IL", "60638", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "41.794789", "-87.7416", "2017-04-10T00:00:00", 1491796315, null, null, null, null, null, null, null, null, [ null, "41.794789", "-87.7416", null, false ] ]
+, [ 504176, "81B7150A-73FA-48EE-BF33-A142F9031E29", 504176, 1491822035, "878752", 1491822035, "878752", null, "43155", "ELEC", "JNS", "321 E Erie St", "NWU ERIE ST 1; NWU Chicago - 321 E. Erie St, Chicago, IL 60611", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8943119", "-87.6196357", "2017-04-10T00:00:00", 1491796257, null, null, null, null, null, null, null, null, [ null, "41.8943119", "-87.6196357", null, false ] ]
+, [ 504188, "FFAE7F77-7129-40E4-9456-06E013FBE63C", 504188, 1491822035, "878752", 1491822035, "878752", null, "44878", "ELEC", "Walsh Construction", "307 S Sangamon", null, "Chicago", "IL", "60607", null, null, "E", null, "Private", "Employee use only", null, null, null, null, null, "1", null, null, null, [ null, null ], "GPS", "41.87757111", "-87.65041351", "2016-11-02T00:00:00", 1484684956, "P", null, null, "2012-03-15T00:00:00", null, null, null, null, [ null, "41.87757111", "-87.65041351", null, false ] ]
+, [ 504197, "E423EFE3-D3CF-4329-95D4-A7A5AD780ACE", 504197, 1491822035, "878752", 1491822035, "878752", null, "46806", "ELEC", "Mid City Nissan", "4444 W Irving Park Rd", null, "Chicago", "IL", "60641", null, "773-282-6200", "E", null, "Public - Call ahead", "Dealership business hours", null, null, null, null, null, "1", null, null, null, [ null, null ], "200-8", "41.953683", "-87.7396481", "2016-08-03T00:00:00", 1487340067, "P", null, null, "2012-01-31T00:00:00", null, null, null, null, [ null, "41.953683", "-87.7396481", null, false ] ]
+, [ 504198, "4CF93220-4EA5-49F3-831B-A15853B1AA9C", 504198, 1491822035, "878752", 1491822035, "878752", null, "46807", "ELEC", "Mid City Nissan", "4444 W Irving Park Rd", null, "Chicago", "IL", "60641", null, "773-282-6200", "E", null, "Private", null, null, null, null, null, null, "1", null, null, null, [ null, null ], "200-8", "41.953683", "-87.7396481", "2016-08-03T00:00:00", 1487340067, "P", null, null, "2012-01-31T00:00:00", null, null, null, null, [ null, "41.953683", "-87.7396481", null, false ] ]
+, [ 504218, "9C5E4222-BE7C-4886-818F-4389ECBE48FC", 504218, 1491822035, "878752", 1491822035, "878752", null, "46990", "ELEC", "Illinois Institute of Technology", "3201 S State St", "Located in visitor lot A4. Northeast Corner of 32nd and State Street", "Chicago", "IL", "60616", null, "312-567-8968", "E", null, "Public", "24 hours daily", null, null, null, null, null, "6", "1", null, null, [ null, null ], "GPS", "41.83545303", "-87.62598419", "2016-11-02T00:00:00", 1484682699, "P", null, null, "2012-03-16T00:00:00", null, null, null, null, [ null, "41.83545303", "-87.62598419", null, false ] ]
+, [ 504250, "CC298A0B-4492-4367-9E12-ACDCBC018A13", 504250, 1491822035, "878752", 1491822035, "878752", null, "47275", "CNG", "Marathon Gas", "1121 S Jefferson St", "S Jefferson St & W Grenshaw St", "Chicago", "IL", "60607", null, "312-374-1885", "E", null, "Public - Credit card at all times", "24 hours daily", "A D M V Voyager Wright_Exp", null, "Q", "3600", null, null, null, null, null, [ null, null ], "200-8", "41.868512", "-87.6416042", "2017-01-11T00:00:00", 1484680178, "P", null, null, "2011-03-08T00:00:00", null, "MD", null, null, [ null, "41.868512", "-87.6416042", null, false ] ]
+, [ 504282, "640DD4C3-FA36-4260-94AF-AB76187D2BAB", 504282, 1491822035, "878752", 1491822035, "878752", null, "50471", "ELEC", "INTERPARK", "30 W Monroe St", "INLAND STEEL; Enterance on Dearborn with valet parking.", "Chicago", "IL", "60603", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.880724", "-87.6291006", "2017-04-10T00:00:00", 1491795414, null, null, null, null, null, null, null, null, [ null, "41.880724", "-87.6291006", null, false ] ]
+, [ 504283, "070D600F-BB1C-47B7-A85F-C425870A0A05", 504283, 1491822035, "878752", 1491822035, "878752", null, "50472", "ELEC", "640 N. LASALLE", "640 N La Salle Dr", "640 N LASALLE; Located lower level with entrance on Ontario St. between LaSalle and Wells", "Chicago", "IL", "60654", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8936163", "-87.6326862", "2017-04-10T00:00:00", 1491795393, null, null, null, null, null, null, null, null, [ null, "41.8936163", "-87.6326862", null, false ] ]
+, [ 504321, "80811B8E-01C5-4952-94D6-781056994390", 504321, 1491822035, "878752", 1491822035, "878752", null, "51803", "ELEC", "Intercontinental - Chicago Magnificent Mile", "505 N Michigan Ave", null, "Chicago", "IL", "60611", null, "888-998-2546", "E", null, "Public", "MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours", null, null, null, null, null, "2", null, null, "Blink Network", [ "http://www.blinknetwork.com/", null ], "GPS", "41.8913113", "-87.6240589", "2017-04-10T00:00:00", 1491790466, null, null, null, null, null, null, null, null, [ null, "41.8913113", "-87.6240589", null, false ] ]
+, [ 504323, "E30D607F-E4C0-479D-8D30-3C8F4DDC5F07", 504323, 1491822035, "878752", 1491822035, "878752", null, "52051", "ELEC", "Testa Produce, Inc", "4555 South Racine Ave", null, "Chicago", "IL", "60609", null, "888-998-2546", "E", null, "Public", "MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours", null, null, null, null, null, "2", null, null, "Blink Network", [ "http://www.blinknetwork.com/", null ], "GPS", "41.810473", "-87.654082", "2017-04-10T00:00:00", 1491790220, null, null, null, null, null, null, null, null, [ null, "41.810473", "-87.654082", null, false ] ]
+, [ 504333, "597BE0F2-999B-4073-9025-13F873DCFD30", 504333, 1491822035, "878752", 1491822035, "878752", null, "52485", "CNG", "Ozinga Energy - Lumber Street", "2242 S Lumber St", "2 Blocks East of Cermak and Halsted.", "Chicago", "IL", "60616", null, "888-656-0141", "E", null, "Public - Credit card at all times", "24 hours daily; customers may set up a fuel account to pay for fuel; call 888-656-0141 to set up a fleet account", "A D M V FuelMan GasCard Voyager Wright_Exp", null, "B", "3600", null, null, null, null, null, [ null, null ], "200-8", "41.851903", "-87.643101", "2016-08-03T00:00:00", 1484678790, "P", null, null, "2012-09-01T00:00:00", null, "HD", null, null, [ null, "41.851903", "-87.643101", null, false ] ]
+, [ 504361, "9EE37D94-02C1-49DF-8336-9BA3CFD81F4F", 504361, 1491822035, "878752", 1491822035, "878752", null, "56790", "ELEC", "INTERPARK", "217 W Washington St", "217WASHINGTON; Washington Wells Self-Park Garage  www.InterParkGreen.com\n217WASHINGTON 2; Washington Wells Self-Park Garage www.InterParkGreen.com", "Chicago", "IL", "60606", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, "2", "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.883211", "-87.634316", "2017-04-10T00:00:00", 1491797085, null, null, null, null, null, null, null, null, [ null, "41.883211", "-87.634316", null, false ] ]
+, [ 504362, "3D0DE7AA-0141-408B-BE97-BD82119EA003", 504362, 1491822035, "878752", 1491822035, "878752", null, "56805", "ELEC", "INTERPARK", "203 N LaSalle Blvd", "203 N LASALLE 2; Enterance is on Clark St. located on the second floor\n203 N LASALLE 1; Garage enterance is on Clark Street located on the second floor", "Chicago", "IL", "60601", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, "2", "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.885976", "-87.632382", "2017-04-10T00:00:00", 1491797074, null, null, null, null, null, null, null, null, [ null, "41.885976", "-87.632382", null, false ] ]
+, [ 504363, "D1158510-9638-4F50-8606-9B24FD7501A1", 504363, 1491822035, "878752", 1491822035, "878752", null, "56839", "ELEC", "LAKE SHORE", "225 N Columbus Dr", "AQUA 4; Lower level of Aqua Building\nAQUA 5; Lower Level of Aqua Building Garage\nAQUA 6; Lower Level of Aqua Building", "Chicago", "IL", "60601", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, "3", "3", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.886356", "-87.620644", "2017-04-10T00:00:00", 1491795758, null, null, null, null, null, null, null, null, [ null, "41.886356", "-87.620644", null, false ] ]
+, [ 504364, "12462F78-EBCD-4F3A-8DE6-FA98553FF65C", 504364, 1491822035, "878752", 1491822035, "878752", null, "56874", "ELEC", "900 N MICHIGAN", "911 North Rush Street", "PLUG AND SHOP 2; Entrance off of Rush Street or Walton Street, Charging Station on First Level\nPLUG AND SHOP 3; Entrance off of Rush Street or Walton Street, Charging Station on First Level\n8TH FLOOR", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, "2", "3", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "41.899234", "-87.626804", "2017-04-10T00:00:00", 1491796983, null, null, null, null, null, null, null, null, [ null, "41.899234", "-87.626804", null, false ] ]
+, [ 504365, "02717536-2B24-4FBA-A13D-F83EDBF5D97A", 504365, 1491822035, "878752", 1491822035, "878752", null, "57210", "ELEC", "SOLDIER FIELD", "464-484 E McFetridge Dr", "LEVEL4 UNIT2; Soldier Field: North Garage Level 4", "Chicago", "IL", "60605", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, "1", "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8641319", "-87.6162033", "2017-04-10T00:00:00", 1491796572, null, null, null, null, null, null, null, null, [ null, "41.8641319", "-87.6162033", null, false ] ]
+, [ 504366, "B3228688-74CD-486C-A075-E07A05655C2F", 504366, 1491822035, "878752", 1491822035, "878752", null, "57599", "ELEC", "ATC", "2125 W North Ave", "CNT 01; For public charging use", "Chicago", "IL", "60647", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.9102278", "-87.681258", "2017-04-10T00:00:00", 1491795970, null, null, null, null, null, null, null, null, [ null, "41.9102278", "-87.681258", null, false ] ]
+, [ 504368, "D1003E9F-4CCA-47D1-AD5F-58AF65F03A4C", 504368, 1491822035, "878752", 1491822035, "878752", null, "58302", "ELEC", "640 N. LASALLE", "640 N LaSalle St", "MAC MANAGEMENT; Located lower level with enterance on Ontario between LaSalle and Wells", "Chicago", "IL", "60290", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8935938", "-87.632785", "2017-04-10T00:00:00", 1491795033, null, null, null, null, null, null, null, null, [ null, "41.8935938", "-87.632785", null, false ] ]
+, [ 504371, "090A3AF5-7404-419F-A958-0E552CC541B4", 504371, 1491822035, "878752", 1491822035, "878752", null, "58326", "ELEC", "3RD FLOOR", "60 W Kinzie St", "GREENWAY-1; Level 3 off of Kinzie St. elevator lobby\nGREENWAY-2; Level 3 off of Kinzie St. elevator lobby\nGREENWAY-3; Level 3 off of Kinzie St. elevator lobby", "Chicago", "IL", "60661", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "6", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "41.889221", "-87.630025", "2017-04-10T00:00:00", 1491794970, null, null, null, null, null, null, null, null, [ null, "41.889221", "-87.630025", null, false ] ]
+, [ 504372, "A275C492-5A35-44CA-8BFE-66CB362B34DC", 504372, 1491822035, "878752", 1491822035, "878752", null, "58335", "ELEC", "PERILLO BMW", "1035 N Clark St", "STATION 01; -", "Chicago", "IL", "60610", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.9012134", "-87.6311337", "2017-04-10T00:00:00", 1491794910, null, null, null, null, null, null, null, null, [ null, "41.9012134", "-87.6311337", null, false ] ]
+, [ 504373, "14EE9CB4-C1DB-4F85-AFF1-12633ED05CE1", 504373, 1491822035, "878752", 1491822035, "878752", null, "60055", "ELEC", "635 W GRACE", "635 W Grace St", "GRACE ST TOWER1; GARAGE 1st FLOOR SPACE 39 & 40", "Chicago", "IL", "60613", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.9516989", "-87.6460687", "2017-04-10T00:00:00", 1491794923, null, null, null, null, null, null, null, null, [ null, "41.9516989", "-87.6460687", null, false ] ]
+, [ 504381, "CF193F46-7DAC-417D-8A71-C0862C30DADE", 504381, 1491822035, "878752", 1491822035, "878752", null, "60531", "ELEC", "HUBBARD CHARGE", "360 W Hubbard St", "STATION #2; 2nd LEVEL UP RAMP\nSTATION #1; 2nd LEVEL UP RAMP", "Chicago", "IL", "60654", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "4", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.889947", "-87.638378", "2017-04-10T00:00:00", 1491794957, null, null, null, null, null, null, null, null, [ null, "41.889947", "-87.638378", null, false ] ]
+, [ 504383, "DC8DCFF5-8E94-4EE3-BE69-903D476416FA", 504383, 1491822035, "878752", 1491822035, "878752", null, "60583", "ELEC", "PARKING A", "5841 S Maryland Ave", "MAIN GARAGE; Main floor of parking garage section 1D", "Chicago", "IL", "60637", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.7887204", "-87.6050198", "2017-04-10T00:00:00", 1491794750, null, null, null, null, null, null, null, null, [ null, "41.7887204", "-87.6050198", null, false ] ]
+, [ 504384, "20907928-EE1E-4515-9EF3-6AE6F194865A", 504384, 1491822035, "878752", 1491822035, "878752", null, "60584", "ELEC", "PARKING A", "6054-6098 S Drexel Ave", "DREXEL GARAGE; 1st floor of Drexel parking garage near 61st entrance", "Chicago", "IL", "60637", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.784474", "-87.6045178", "2017-04-10T00:00:00", 1491794714, null, null, null, null, null, null, null, null, [ null, "41.784474", "-87.6045178", null, false ] ]
+, [ 504388, "B692BA1B-850E-4F07-85AB-640FCD5E9E33", 504388, 1491822035, "878752", 1491822035, "878752", null, "60931", "CNG", "Clean Energy - Taxi Affiliation Services", "540 W Grenshaw St", null, "Chicago", "IL", "60607", null, "866-809-4869", "E", null, "Public - Credit card at all times", "24 hours daily; call 866-809-4869 for Clean Energy card", "D M V CleanEnergy FuelMan Voyager Wright_Exp", null, "Q", "3600", null, null, null, null, null, [ null, null ], "200-8", "41.8682778", "-87.6408276", "2017-03-03T00:00:00", 1488544833, "P", null, null, "2014-03-30T00:00:00", null, "MD", null, null, [ null, "41.8682778", "-87.6408276", null, false ] ]
+, [ 504389, "5AB2F6C8-3AAA-4244-B73B-AAB9687CD435", 504389, 1491822035, "878752", 1491822035, "878752", null, "60987", "ELEC", "Western Avenue Nissan", "7410 S Western Ave", null, "Chicago", "IL", "60636", null, "773-776-8200", "E", null, "Public - Call ahead", "Dealership business hours", null, null, null, null, null, "1", null, null, null, [ null, null ], "200-8", "41.7588594", "-87.6831642", "2016-08-03T00:00:00", 1487339363, "P", null, null, "2014-02-01T00:00:00", null, null, null, null, [ null, "41.7588594", "-87.6831642", null, false ] ]
+, [ 504390, "C27A0C01-57F5-42E7-97C3-9E4C7F120310", 504390, 1491822035, "878752", 1491822035, "878752", null, "60988", "ELEC", "Western Avenue Nissan", "7410 S Western Ave", null, "Chicago", "IL", "60636", null, "773-776-8200", "E", null, "Private", null, null, null, null, null, null, "1", null, null, null, [ null, null ], "200-8", "41.7588594", "-87.6831642", "2016-08-03T00:00:00", 1487339363, "P", null, null, "2014-02-01T00:00:00", null, null, null, null, [ null, "41.7588594", "-87.6831642", null, false ] ]
+, [ 504399, "E191B804-2729-4C47-A0E0-5FFFA8C69C36", 504399, 1491822035, "878752", 1491822035, "878752", null, "61218", "ELEC", "PARKING GARAGE", "111 S Wacker Dr", "P3 GW; ? 3rd floor of parking garage.  Directly up the ramp from the parking garage office\nP1 GW; located off of Lower Wacker, this unit is located just inside the entrance on the south wall\nP3 NGW; 3rd floor parking", "Chicago", "IL", "60606", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "6", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.880472", "-87.63684", "2017-04-10T00:00:00", 1491794741, null, null, null, null, null, null, null, null, [ null, "41.880472", "-87.63684", null, false ] ]
+, [ 504409, "28B48F93-FA29-45FB-826E-7B2BA70D9A5E", 504409, 1491822036, "878752", 1491822036, "878752", null, "61637", "ELEC", "SOLDIER FIELD", "1400 S Linn White Dr", "SOLAR PLUG 4 EV; -", "Chicago", "IL", "60605", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, "1", "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8604711", "-87.6100168", "2017-04-10T00:00:00", 1491797066, null, null, null, null, null, null, null, null, [ null, "41.8604711", "-87.6100168", null, false ] ]
+, [ 504417, "CF168F16-FE3F-4D1A-8072-6EE534A1E23D", 504417, 1491822036, "878752", 1491822036, "878752", null, "62312", "CNG", "Ozinga Energy - Lumber Street", "2242 S Lumber St", "2 Blocks East of Cermak and Halsted.", "Chicago", "IL", "60616", null, "888-656-0141", "E", null, "Private", null, null, null, "Q", "3600", null, null, null, null, null, [ null, null ], "200-8", "41.851903", "-87.643101", "2016-08-03T00:00:00", 1484678790, "P", null, null, "2012-09-01T00:00:00", null, "HD", null, null, [ null, "41.851903", "-87.643101", null, false ] ]
+, [ 504430, "6FEB1712-6A61-4E59-81A4-AFF3A94AEC00", 504430, 1491822036, "878752", 1491822036, "878752", null, "63126", "ELEC", "JNS", "1334 E 79th St", "SEARS 79TH ST 2; -\nSEARS 79TH ST 1; -", "Chicago", "IL", "60619", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "41.751422", "-87.591216", "2017-04-10T00:00:00", 1491796885, null, null, null, null, null, null, null, null, [ null, "41.751422", "-87.591216", null, false ] ]
+, [ 504432, "93D05AB0-7857-4A25-8440-0B19523F3381", 504432, 1491822036, "878752", 1491822036, "878752", null, "63131", "ELEC", "JNS", "900 S Clark St", "900 S CLARK; -", "Chicago", "IL", "60605", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8703078", "-87.6309085", "2017-04-10T00:00:00", 1491796349, null, null, null, null, null, null, null, null, [ null, "41.8703078", "-87.6309085", null, false ] ]
+, [ 504433, "D6C41ED8-D8CD-437F-8A94-1A7C7CC0EF2A", 504433, 1491822036, "878752", 1491822036, "878752", null, "63133", "ELEC", "JNS", "4385 S Archer Ave", "WAL ARCHER 2; Walgreens at Kedzie and Arche\nWAL ARCHER 1; Walgreens at Kedzie and Archer", "Chicago", "IL", "60632", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.813665", "-87.705004", "2017-04-10T00:00:00", 1491796883, null, null, null, null, null, null, null, null, [ null, "41.813665", "-87.705004", null, false ] ]
+, [ 504436, "7E32E7AE-CAD0-420B-B10E-756B2F38371B", 504436, 1491822036, "878752", 1491822036, "878752", null, "63147", "ELEC", "JNS", "915 S Paulina St", "UIC PAULINA 1; Located on 1st level in Southwest corner of garage\nUIC PAULINA 2; Located on 1st level in Southwest corner of garage\nUIC PAULINA 3; Located on 1st level in Southwest corner of garage", "Chicago", "IL", "60612", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "3", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "41.870014", "-87.668977", "2017-04-10T00:00:00", 1491796316, null, null, null, null, null, null, null, null, [ null, "41.870014", "-87.668977", null, false ] ]
+, [ 504437, "A7733232-AF50-41C0-AB9E-61AD41988FCF", 504437, 1491822036, "878752", 1491822036, "878752", null, "63150", "ELEC", "JNS", "210 N Wells St", "210 N WELLS; Located on 2nd level parking garage near elevators", "Chicago", "IL", "60606", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8861415", "-87.6341576", "2017-04-10T00:00:00", 1491796354, null, null, null, null, null, null, null, null, [ null, "41.8861415", "-87.6341576", null, false ] ]
+, [ 504438, "82859DA7-4BCF-419D-8BD8-12E54F8B00CC", 504438, 1491822036, "878752", 1491822036, "878752", null, "63151", "ELEC", "JNS", "260 E Chestnut St", "260 E CHESTNUT; Located immediately to the right of entrance", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8988266", "-87.6195984", "2017-04-10T00:00:00", 1491796316, null, null, null, null, null, null, null, null, [ null, "41.8988266", "-87.6195984", null, false ] ]
+, [ 504439, "1EA03436-5BDD-4ECC-88DC-689A3FDCE0FB", 504439, 1491822036, "878752", 1491822036, "878752", null, "63152", "ELEC", "JNS", "30 S Wacker Dr", "30 S WACKER; -", "Chicago", "IL", "60606", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8808746", "-87.6373138", "2017-04-10T00:00:00", 1491795991, null, null, null, null, null, null, null, null, [ null, "41.8808746", "-87.6373138", null, false ] ]
+, [ 504448, "7681AA24-B2CA-44FB-BFCC-DDE709804B6D", 504448, 1491822036, "878752", 1491822036, "878752", null, "63463", "ELEC", "JNS", "5625 N Ridge Ave", "WAL RIDGE 1; located in parking lot north east corner\nWAL RIDGE 2; located in the parking lot in northeast corner", "Chicago", "IL", "60660", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.9841", "-87.660828", "2017-04-10T00:00:00", 1491796315, null, null, null, null, null, null, null, null, [ null, "41.9841", "-87.660828", null, false ] ]
+, [ 504462, "06E4A92B-6D41-4688-99E2-AA9CCEF97597", 504462, 1491822036, "878752", 1491822036, "878752", null, "63927", "CNG", "City of Chicago FS#7", "10000 W Montrose", "O'Hare Airport", "Chicago", "IL", "60666", null, null, "E", null, "Private - Government only", null, null, null, "Q", "3600", null, null, null, null, null, [ null, null ], "200-8", "41.9593847", "-87.8394487", "2016-11-02T00:00:00", 1484681238, "LG", null, null, "2008-07-15T00:00:00", null, "HD", null, null, [ null, "41.9593847", "-87.8394487", null, false ] ]
+, [ 504463, "24EC95C3-870C-4692-A76C-EA3A1BC4EA86", 504463, 1491822036, "878752", 1491822036, "878752", null, "64201", "ELEC", "JNS", "1550 N Kingsbury St", "WF LINCN PARK 1; Located on column in parking garage near main entrance\nWF LINCN PARK 2; Located on column of parking garage near main entrance", "Chicago", "IL", "60642", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.908432", "-87.652029", "2017-04-10T00:00:00", 1491796259, null, null, null, null, null, null, null, null, [ null, "41.908432", "-87.652029", null, false ] ]
+, [ 504464, "91AAB8BC-5AC1-4E5D-8878-B0B791B44B25", 504464, 1491822036, "878752", 1491822036, "878752", null, "64244", "ELEC", "JNS", "3300 N Ashland Ave", "WF ASHLAND 1; Located in lower parking garage along back wall\nWF ASHLAND 2; Installed in lower parking garage along back wall", "Chicago", "IL", "60657", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.941143", "-87.668754", "2017-04-10T00:00:00", 1491796879, null, null, null, null, null, null, null, null, [ null, "41.941143", "-87.668754", null, false ] ]
+, [ 504465, "00923EDE-FC01-4003-A737-7D5A0EAF052F", 504465, 1491822036, "878752", 1491822036, "878752", null, "64245", "ELEC", "JNS", "3640 N Halsted St", "WF HALSTED 1; Located in lower parking garage along back wall\nWF HALSTED 2; Located in lower level parking garage along back wall", "Chicago", "IL", "60613", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.948387", "-87.649502", "2017-04-10T00:00:00", 1491796256, null, null, null, null, null, null, null, null, [ null, "41.948387", "-87.649502", null, false ] ]
+, [ 504466, "112998C5-DBFC-4E7D-908B-B97DF6871CFA", 504466, 1491822036, "878752", 1491822036, "878752", null, "64246", "ELEC", "JNS", "30 W Huron St", "WF HURON 1; Located in parking garage near ramp\nWF HURON 2; Located in parking garage near ramp", "Chicago", "IL", "60654", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "41.894857", "-87.629609", "2017-04-10T00:00:00", 1491796256, null, null, null, null, null, null, null, null, [ null, "41.894857", "-87.629609", null, false ] ]
+, [ 504467, "DA419EC9-3A1A-43AC-AC95-81A192E38C26", 504467, 1491822036, "878752", 1491822036, "878752", null, "64272", "ELEC", "JNS", "222 E Huron St", "NWU E HURON 1; NWU Parking Garage C-Lot", "Chicago", "IL", "60654", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8953004", "-87.6222675", "2017-04-10T00:00:00", 1491796372, null, null, null, null, null, null, null, null, [ null, "41.8953004", "-87.6222675", null, false ] ]
+, [ 504470, "1BF51F32-4E23-495B-A2F1-5B005515777C", 504470, 1491822036, "878752", 1491822036, "878752", null, "64275", "ELEC", "JNS", "6020 N Cicero Ave", "WF CICERO 2; Located in underground parking near SW corner\nWF CICERO 1; Located in underground parking SW corner", "Chicago", "IL", "60646", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.990481", "-87.748332", "2017-04-10T00:00:00", 1491796803, null, null, null, null, null, null, null, null, [ null, "41.990481", "-87.748332", null, false ] ]
+, [ 504471, "FB946C26-D0A4-4681-BF64-9D40BBDC1858", 504471, 1491822036, "878752", 1491822036, "878752", null, "64276", "ELEC", "JNS", "400 N McClurg Ct", "400 N MCCLURG; Located on 2nd Floor Cityfront Place Apartments", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8891457", "-87.6181388", "2017-04-10T00:00:00", 1491796349, null, null, null, null, null, null, null, null, [ null, "41.8891457", "-87.6181388", null, false ] ]
+, [ 504472, "9DEFD5C3-437F-4F37-8671-8CF56E8E83F4", 504472, 1491822036, "878752", 1491822036, "878752", null, "64291", "ELEC", "JNS", "5440 N Clark St", "WAL CLARK 2; Located on sidewalk near back of building\nWAL CLARK 1; Located on sidewalk near back of building", "Chicago", "IL", "60640", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.98112", "-87.668394", "2017-04-10T00:00:00", 1491796971, null, null, null, null, null, null, null, null, [ null, "41.98112", "-87.668394", null, false ] ]
+, [ 504473, "AE3BF15A-E52F-4F62-A201-2DFADA37F5B9", 504473, 1491822036, "878752", 1491822036, "878752", null, "64292", "ELEC", "JNS", "4730 W Irving Park Rd", "SEARS IRVING 1; Located on the apron near Auto Center", "Chicago", "IL", "60641", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.9543707", "-87.746035", "2017-04-10T00:00:00", 1491796431, null, null, null, null, null, null, null, null, [ null, "41.9543707", "-87.746035", null, false ] ]
+, [ 504474, "473EA755-AF3F-4440-9FE6-A078C5F70D8D", 504474, 1491822036, "878752", 1491822036, "878752", null, "64293", "ELEC", "JNS", "939 W North Ave", "US EQUITY; Located on 4th floor of parking garage SE corner", "Chicago", "IL", "60642", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.9105079", "-87.651876", "2017-04-10T00:00:00", 1491795991, null, null, null, null, null, null, null, null, [ null, "41.9105079", "-87.651876", null, false ] ]
+, [ 504475, "4E82BF1D-2382-4C53-BBB1-94B4CF85C4FB", 504475, 1491822036, "878752", 1491822036, "878752", null, "64294", "ELEC", "JNS", "875 N Michigan Ave", "JOHN HANCOCK 1; Located on 6th floor parking garage NW side\nJOHN HANCOCK 2; Located on 6th floor parking garage NW side", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "41.898398", "-87.624022", "2017-04-10T00:00:00", 1491795993, null, null, null, null, null, null, null, null, [ null, "41.898398", "-87.624022", null, false ] ]
+, [ 504476, "B39E663C-FB82-42F3-9416-5D4AC3833682", 504476, 1491822036, "878752", 1491822036, "878752", null, "64324", "ELEC", "JNS", "7462-7478 N Rogers Ave", "7474 N ROGERS 2; Located in parking garage level two SW corner\n7474 N ROGERS 1; Located in parking garage level two SW corner", "Chicago", "IL", "60626", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "42.017179", "-87.672931", "2017-04-10T00:00:00", 1491796304, null, null, null, null, null, null, null, null, [ null, "42.017179", "-87.672931", null, false ] ]
+, [ 504478, "76DAC21F-8020-46C5-AF03-32D9CE91C2F0", 504478, 1491822036, "878752", 1491822036, "878752", null, "64452", "ELEC", "1000 LAKE SHORE", "130-138 E Oak St", "1000 LSD; Entrance on Oak Street with Valet Parking", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.9008497", "-87.6245204", "2017-04-10T00:00:00", 1491794214, null, null, null, null, null, null, null, null, [ null, "41.9008497", "-87.6245204", null, false ] ]
+, [ 504480, "8EE0BC0B-D556-4FF6-928A-709281BFE665", 504480, 1491822036, "878752", 1491822036, "878752", null, "64467", "ELEC", "JNS", "1101 S Canal St", "WF CANAL 1; Located on column in lower level parking garage\nWF CANAL 2; Located on column in lower level parking garage", "Chicago", "IL", "60607", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "41.868875", "-87.639223", "2017-04-10T00:00:00", 1491796259, null, null, null, null, null, null, null, null, [ null, "41.868875", "-87.639223", null, false ] ]
+, [ 504482, "7BF5820F-B0C1-454D-BAD2-A7A329358F85", 504482, 1491822036, "878752", 1491822036, "878752", null, "64470", "ELEC", "JNS", "1627 N Pulaski Rd", "WAL PULASKI 1; Located near sign on Pulaski side of parking lot\nWAL PULASKI 2; Located near sign on Pulaski side of parking lot", "Chicago", "IL", "60639", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.910951", "-87.726372", "2017-04-10T00:00:00", 1491796259, null, null, null, null, null, null, null, null, [ null, "41.910951", "-87.726372", null, false ] ]
+, [ 504483, "BE8F0ED1-EA62-4052-86D9-C4EA3D378266", 504483, 1491822036, "878752", 1491822036, "878752", null, "64471", "ELEC", "JNS", "5158 N Lincoln Ave", "WAL LINCOLN 1; Walgreens @ 5158 N Lincoln, Chicago, IL 60625", "Chicago", "IL", "60625", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.9757", "-87.692813", "2017-04-10T00:00:00", 1491796001, null, null, null, null, null, null, null, null, [ null, "41.9757", "-87.692813", null, false ] ]
+, [ 504493, "1D34D70F-7B93-49F1-9CA7-9D7E84CF8442", 504493, 1491822036, "878752", 1491822036, "878752", null, "65015", "ELEC", "CFP II, LLC", "240 E Illinois St", "204; ChargePoint station located on 2nd floor  at spot 204 and 205\n206; Located on second floor at spot 206 and 207", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "4", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.891054", "-87.62138", "2017-04-10T00:00:00", 1491793566, null, null, null, null, null, null, null, null, [ null, "41.891054", "-87.62138", null, false ] ]
+, [ 504494, "7D3BF785-2D51-4D93-9FFF-A646FA2D7F7A", 504494, 1491822036, "878752", 1491822036, "878752", null, "65036", "ELEC", "JNS", "3630 N Southport Ave", "JEWEL 3640; Jewel @ 3630 N. Southport Ave, Chicago, IL 60613", "Chicago", "IL", "60613", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.9481843", "-87.6641775", "2017-04-10T00:00:00", 1491795999, null, null, null, null, null, null, null, null, [ null, "41.9481843", "-87.6641775", null, false ] ]
+, [ 504500, "C9C7EBB6-FD79-4FC5-90BB-905995BD177E", 504500, 1491822036, "878752", 1491822036, "878752", null, "65309", "ELEC", "JNS", "1401 W Devon Ave", "1401 W DEVON 01; -", "Chicago", "IL", "60660", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.9979499", "-87.6656012", "2017-04-10T00:00:00", 1491795992, null, null, null, null, null, null, null, null, [ null, "41.9979499", "-87.6656012", null, false ] ]
+, [ 504510, "AE16A658-BB81-4986-A51D-7FED983CBCF9", 504510, 1491822036, "878752", 1491822036, "878752", null, "65945", "ELEC", "OneEleven", "111 West Wacker Drive", null, "Chicago", "IL", "60601", null, "888-998-2546", "E", null, "Public", "MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours", null, null, null, null, null, "1", null, null, "Blink Network", [ "http://www.blinknetwork.com/", null ], "GPS", "41.8864", "-87.6314", "2017-04-10T00:00:00", 1491790161, null, null, null, null, null, null, null, null, [ null, "41.8864", "-87.6314", null, false ] ]
+, [ 504514, "7C9A85FB-4A5C-45B0-BA52-32DF0E01DC52", 504514, 1491822036, "878752", 1491822036, "878752", null, "66345", "ELEC", "Lake Shore Drive Garage", "509 North Peshtigo Court", "The garage is in the 500 Lake Shore Drive building located between Illinois Street and Grand Avenue - one block west of Lake Shore Drive. Charging station is on second floor next to Zip-car parking stalls.", "Chicago", "IL", "60611", null, "800-663-5633", "E", null, "Public - Card key at all times", "MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified", null, null, null, null, null, "1", null, null, "SemaCharge Network", [ "http://www.semacharge.com/", null ], "GPS", "41.8915069", "-87.6150303", "2017-04-09T00:00:00", 1491706203, null, null, null, null, null, null, null, null, [ null, "41.8915069", "-87.6150303", null, false ] ]
+, [ 504515, "6071D1E0-7F33-4468-A6CD-726A3CA87136", 504515, 1491822036, "878752", 1491822036, "878752", null, "66475", "E85", "Western 66", "225 N Western Ave", null, "Chicago", "IL", "60612", null, "312-421-7730", "E", null, "Public", "24 hours daily", "Cash Checks A D M V Voyager Wright_Exp", null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.8853788", "-87.6864546", "2016-11-02T00:00:00", 1484680033, "P", null, null, "2015-03-15T00:00:00", null, null, null, "false", [ null, "41.8853788", "-87.6864546", null, false ] ]
+, [ 504517, "F2D0227B-3950-47B4-98AB-ACB96CECD8D4", 504517, 1491822036, "878752", 1491822036, "878752", null, "66604", "ELEC", "737 N MICHIGAN", "161 E. Chicago Ave", "STATION #1; ON LOWER LEVEL ONE JUST OFF RAMP\nSTATION #2; ON LOWER LEVEL ONE JUST OFF RAMP", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "3", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.896723", "-87.623489", "2017-04-10T00:00:00", 1491793775, null, null, null, null, null, null, null, null, [ null, "41.896723", "-87.623489", null, false ] ]
+, [ 504518, "3CE0BA5B-941F-48C1-9DB8-EEE827FDD591", 504518, 1491822036, "878752", 1491822036, "878752", null, "66720", "ELEC", "PARKING B", "259 Northwestern UniversityE Erie St", "LOT B FLOOR9 #1; 259 E. Erie Parking B on the 9th floor", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.893991", "-87.620784", "2017-04-10T00:00:00", 1491792848, null, null, null, null, null, null, null, null, [ null, "41.893991", "-87.620784", null, false ] ]
+, [ 504525, "ED896894-28CA-47E4-B0D2-C6D1050837AD", 504525, 1491822036, "878752", 1491822036, "878752", null, "67089", "ELEC", "JNS", "222 E Huron St", "NWU E HURON 2; NWU Parking Garage C-Lot", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "1", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8952787", "-87.6219774", "2017-04-10T00:00:00", 1491796284, null, null, null, null, null, null, null, null, [ null, "41.8952787", "-87.6219774", null, false ] ]
+, [ 504557, "740B6DB1-2D40-4E49-B20F-FB35F2B1EAA5", 504557, 1491822036, "878752", 1491822036, "878752", null, "69433", "ELEC", "Whole Foods - West Huron", "30 W Huron St", null, "Chicago", "IL", "60654", null, "877-455-3833", "E", null, "Public - Card key at all times", "24 hours daily; EVgo network subscription and key fob required", null, null, null, null, null, "2", "1", null, "eVgo Network", [ "https://www.evgonetwork.com/", null ], "GPS", "41.8950462341309", "-87.6289978027344", "2017-04-10T00:00:00", 1491800553, null, null, null, null, null, null, null, null, [ null, "41.8950462341309", "-87.6289978027344", null, false ] ]
+, [ 504558, "76B5410A-C02E-4C79-8366-8B0B59563F13", 504558, 1491822036, "878752", 1491822036, "878752", null, "69434", "ELEC", "Whole Foods Market - Halsted", "3640 N Halsted St", null, "Chicago", "IL", "60613", null, "877-455-3833", "E", null, "Public - Card key at all times", "24 hours daily; EVgo network subscription and key fob required", null, null, null, null, null, "2", "1", null, "eVgo Network", [ "https://www.evgonetwork.com/", null ], "GPS", "41.9484443664551", "-87.6499633789062", "2017-04-10T00:00:00", 1491800553, null, null, null, null, null, null, null, null, [ null, "41.9484443664551", "-87.6499633789062", null, false ] ]
+, [ 504559, "48F520AE-0CE4-4651-8436-A57D97BB969D", 504559, 1491822036, "878752", 1491822036, "878752", null, "69435", "ELEC", "Whole Foods Market - Cicero", "6020 N Cicero Ave", null, "Chicago", "IL", "60646", null, "877-455-3833", "E", null, "Public - Card key at all times", "24 hours daily; EVgo network subscription and key fob required", null, null, null, null, null, "2", "1", null, "eVgo Network", [ "https://www.evgonetwork.com/", null ], "GPS", "41.9906120300293", "-87.7486877441406", "2017-04-10T00:00:00", 1491800553, null, null, null, null, null, null, null, null, [ null, "41.9906120300293", "-87.7486877441406", null, false ] ]
+, [ 504565, "8B223651-4F2B-4BCD-BFBF-042128B8F4D9", 504565, 1491822036, "878752", 1491822036, "878752", null, "69446", "ELEC", "UIC - Maxwell St Garage", "701 W Maxwell St", null, "Chicago", "IL", "60607", null, "877-455-3833", "E", null, "Public - Card key at all times", "24 hours daily; EVgo network subscription and key fob required", null, null, null, null, null, null, "2", null, "eVgo Network", [ "https://www.evgonetwork.com/", null ], "GPS", "41.8647994995117", "-87.645378112793", "2017-04-10T00:00:00", 1491800559, null, null, null, null, null, null, null, null, [ null, "41.8647994995117", "-87.645378112793", null, false ] ]
+, [ 504566, "0BA918D1-D785-419E-9E89-A0FC68F06D26", 504566, 1491822036, "878752", 1491822036, "878752", null, "69447", "ELEC", "Walgreens - North Ridge Ave", "5625 N Ridge Ave", null, "Chicago", "IL", "60660", null, "877-455-3833", "E", null, "Public - Card key at all times", "24 hours daily; EVgo network subscription and key fob required", null, null, null, null, null, null, "2", null, "eVgo Network", [ "https://www.evgonetwork.com/", null ], "GPS", "41.9847259521484", "-87.6609802246094", "2017-04-10T00:00:00", 1491800559, null, null, null, null, null, null, null, null, [ null, "41.9847259521484", "-87.6609802246094", null, false ] ]
+, [ 504575, "642F38F7-F69A-403E-A209-8629D015C630", 504575, 1491822036, "878752", 1491822036, "878752", null, "70371", "ELEC", "Jewel-Osco Grocery (New Albertson's Inc.)", "3400 N Western Ave", null, "Chicago", "IL", "60618", null, "877-455-3833", "E", null, "Public - Card key at all times", "24 hours daily; EVgo network subscription and key fob required", null, null, null, null, null, null, "2", null, "eVgo Network", [ "https://www.evgonetwork.com/", null ], "GPS", "41.9432258605957", "-87.689323425293", "2017-04-10T00:00:00", 1491800556, null, null, null, null, null, null, null, null, [ null, "41.9432258605957", "-87.689323425293", null, false ] ]
+, [ 504588, "73EA48EF-5CFB-43EB-9777-6764AAEEE4DA", 504588, 1491822036, "878752", 1491822036, "878752", null, "70908", "LPG", "U-Haul", "4055 N Broadway St", null, "Chicago", "IL", "60613", null, "773-871-7155", "E", null, "Public", "7am-7pm M-Th and Sat, 7am-8pm F, 9am-5pm Sun", "Cash A D M V", null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.9565037", "-87.6506498", "2016-11-02T00:00:00", 1484678345, "P", null, null, null, null, null, "true", null, [ null, "41.9565037", "-87.6506498", null, false ] ]
+, [ 504590, "2BCC5CD3-3736-47C7-83DD-5929C22341FE", 504590, 1491822036, "878752", 1491822036, "878752", null, "70911", "LPG", "U-Haul", "4705 W 47th St", null, "Chicago", "IL", "60632", null, "773-767-1797", "E", null, "Public", "7am-7pm M-Th and Sat, 7am-8pm F, 9am-5pm Sun", "Cash A D M V", null, null, null, null, null, null, null, null, [ null, null ], "200-8", "41.807399", "-87.7410197", "2016-11-02T00:00:00", 1484677043, "P", null, null, null, null, null, "false", null, [ null, "41.807399", "-87.7410197", null, false ] ]
+, [ 504593, "2360D834-050A-493D-BA6F-FCA8F03C7262", 504593, 1491822036, "878752", 1491822036, "878752", null, "70932", "ELEC", "NAVY PIER", "600 E Grand Ave", "WEST GARAGE 01; West Garage, Head Straight, Door 1. ", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8919806", "-87.6095976", "2017-04-10T00:00:00", 1491795314, null, null, null, null, null, null, null, null, [ null, "41.8919806", "-87.6095976", null, false ] ]
+, [ 504596, "D2B62351-9D39-4FB6-BB4F-DD1BB8C8C4A0", 504596, 1491822036, "878752", 1491822036, "878752", null, "71137", "ELEC", "Walgreens - N. Lincoln Ave, Chicago", "5158 N Lincoln Ave", null, "Chicago", "IL", "60625", null, "877-455-3833", "E", null, "Public - Card key at all times", "24 hours daily; EVgo network subscription and key fob required", null, null, null, null, null, null, "2", null, "eVgo Network", [ "https://www.evgonetwork.com/", null ], "GPS", "41.9749374389648", "-87.6929244995117", "2017-04-10T00:00:00", 1491800552, null, null, null, null, null, null, null, null, [ null, "41.9749374389648", "-87.6929244995117", null, false ] ]
+, [ 504597, "1FEA2CED-0D87-4D87-BA52-7EE3E2EF8E49", 504597, 1491822036, "878752", 1491822036, "878752", null, "71145", "ELEC", "AC Hotel Chicago Downtown - Tesla", "630 N Rush St", null, "Chicago", "IL", "60611", null, "312-981-6600  877-798-3752", "E", null, "Public - Call ahead", "24 hours daily; for Tesla use only; for guest use only", null, null, null, null, null, "2", null, null, "Tesla", [ "http://www.teslamotors.com/supercharger", null ], "200-9", "41.8936038", "-87.6260979", "2016-05-09T00:00:00", 1484679063, "P", null, null, "2015-10-01T00:00:00", null, null, null, null, [ null, "41.8936038", "-87.6260979", null, false ] ]
+, [ 504600, "3AAFF05A-06EF-4852-BC56-BF8313AAD289", 504600, 1491822036, "878752", 1491822036, "878752", null, "71153", "ELEC", "Park Hyatt - Tesla", "800 N Michigan Ave", null, "Chicago", "IL", "60611", null, "312-335-1234  877-798-3752", "E", null, "Public", "24 hours daily; for Tesla use only; for guest use only; see valet for access", null, null, null, null, null, "1", null, null, "Tesla", [ "http://www.teslamotors.com/supercharger", null ], "200-8", "41.8970705", "-87.6250667", "2016-05-09T00:00:00", 1484679500, "P", null, null, "2015-08-01T00:00:00", null, null, null, null, [ null, "41.8970705", "-87.6250667", null, false ] ]
+, [ 504601, "6A34B10E-63D9-4582-81C1-2B6633B3693E", 504601, 1491822036, "878752", 1491822036, "878752", null, "71154", "ELEC", "The Guesthouse Hotel - Tesla", "4872 N Clark St", null, "Chicago", "IL", "60640", null, "773-564-9568  877-798-3752", "E", null, "Public - Call ahead", "24 hours daily; for Tesla use only; for guest use only", null, null, null, null, null, "1", null, null, "Tesla", [ "http://www.teslamotors.com/supercharger", null ], "200-8", "41.9709481", "-87.6679862", "2016-05-09T00:00:00", 1484679063, "P", null, null, "2015-10-01T00:00:00", null, null, null, null, [ null, "41.9709481", "-87.6679862", null, false ] ]
+, [ 504615, "575699D9-6D4F-4EE0-AC4B-1825D5A26C1F", 504615, 1491822036, "878752", 1491822036, "878752", null, "72432", "ELEC", "IRVINE CO OFC", "71 S Wacker Dr", "71SW B2 02-03; Stations are for Monthly Parkers Only.\n71SW B1 63-64; Stations Are For Monthly Parkers Only.", "Chicago", "IL", "60606", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "4", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.880998", "-87.636753", "2017-04-10T00:00:00", 1491792903, null, null, null, null, null, null, null, null, [ null, "41.880998", "-87.636753", null, false ] ]
+, [ 504616, "4918E581-4E9E-489B-BDAE-91C24AD6F9A0", 504616, 1491822036, "878752", 1491822036, "878752", null, "72438", "ELEC", "OMPE", "1201 S Prairie Ave", "ONE MUSEUM PARK; -", "Chicago", "IL", "60605", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8665713", "-87.6217565", "2017-04-10T00:00:00", 1491793073, null, null, null, null, null, null, null, null, [ null, "41.8665713", "-87.6217565", null, false ] ]
+, [ 504617, "3BCF938C-1B9B-490B-9C29-0C45EE1E90BA", 504617, 1491822036, "878752", 1491822036, "878752", null, "72468", "ELEC", "FOUR40 PROPERTY", "415 S Financial", "FOUR40 - 2; Garage offers complimentary Electric Vehicle Charging with their Valet Service", "Chicago", "IL", "60605", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8765628", "-87.6329998", "2017-04-10T00:00:00", 1491794599, null, null, null, null, null, null, null, null, [ null, "41.8765628", "-87.6329998", null, false ] ]
+, [ 504618, "FFFD8F95-2D12-4392-8AFE-C6A05A46F008", 504618, 1491822036, "878752", 1491822036, "878752", null, "72469", "ELEC", "FOUR40 PROPERTY", "415 S. Financial Place", "FOUR40 - 1; Garage offers complimentary Electric Vehicle Charging with their Valet Service", "Chicago", "IL", "60605", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8766677", "-87.6329488", "2017-04-10T00:00:00", 1491794590, null, null, null, null, null, null, null, null, [ null, "41.8766677", "-87.6329488", null, false ] ]
+, [ 504619, "6A176D17-7F7D-45B9-95D5-C857C12E81CD", 504619, 1491822036, "878752", 1491822036, "878752", null, "72473", "ELEC", "PARKING B", "259 E Erie St", "LOT B FLOOR9 #2; 259 E. Erie Parking B on the 9th floor\nLOT B FLOOR 8#1; 259 E. Erie Parking B on the 8th \nLOT B FLOOR8 #3; 259 E. Erie Parking B on the 8th \nLOT B FLOOR8 #2; 259 E. Erie Parking B on the 8th \nLOT B FLOOR9 #3; 259 E. Erie Parking B on the 9th floor", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "10", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-9", "41.894212", "-87.620648", "2017-04-10T00:00:00", 1491793522, null, null, null, null, null, null, null, null, [ null, "41.894212", "-87.620648", null, false ] ]
+, [ 504620, "A10633B4-82BE-4891-8ABF-BE2F4B675952", 504620, 1491822036, "878752", 1491822036, "878752", null, "72478", "ELEC", "PARKING GARAGE", "5500 N St Louis Ave", "SOUTH UNIT; 1st Fl. Parking  Garage \n!ST FLOOR NORTH", "Chicago", "IL", "60625", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "4", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "41.982377", "-87.716147", "2017-04-10T00:00:00", 1491792724, null, null, null, null, null, null, null, null, [ null, "41.982377", "-87.716147", null, false ] ]
+, [ 504621, "0FB88A73-5149-4ABE-B3B9-D1104DC28B7A", 504621, 1491822036, "878752", 1491822036, "878752", null, "72544", "ELEC", "THE BOEING CO", "100 N Riverside Plaza", "BOEING CHICAGO1; 4th floor\nBOEING CHICAGO2; 4th fl parking ", "Chicago", "IL", "60606", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "4", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "200-8", "41.883209", "-87.638549", "2017-04-10T00:00:00", 1491792257, null, null, null, null, null, null, null, null, [ null, "41.883209", "-87.638549", null, false ] ]
+, [ 504625, "9543089B-666C-4EDD-83E4-308FA057DE15", 504625, 1491822036, "878752", 1491822036, "878752", null, "72664", "ELEC", "35 W WACKER", "35 W Wacker Dr", "35 W WACKER 2; Private Garage - No Parking", "Chicago", "IL", "60601", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8866787", "-87.6289995", "2017-04-10T00:00:00", 1491792032, null, null, null, null, null, null, null, null, [ null, "41.8866787", "-87.6289995", null, false ] ]
+, [ 504642, "4C7699B0-697A-46FF-8C7A-CCCEC5EEECBB", 504642, 1491822036, "878752", 1491822036, "878752", null, "73375", "ELEC", "ComEd", "1353 W 35th St", null, "Chicago", "IL", "60609", null, "630-576-6223", "E", null, "Public - Call ahead", "8am-5pm daily; mainly for employee use", null, null, null, null, null, "2", null, null, null, [ null, null ], "200-8", "41.829649", "-87.659725", "2016-03-07T00:00:00", 1484683180, "T", null, null, "2015-12-24T00:00:00", null, null, null, null, [ null, "41.829649", "-87.659725", null, false ] ]
+, [ 504643, "58BE3FCC-F260-4F7D-8F6D-78B78A2A5262", 504643, 1491822036, "878752", 1491822036, "878752", null, "73376", "ELEC", "ComEd", "216 N Ogden Ave", null, "Chicago", "IL", "60607", null, null, "E", null, "Private", "ComEd fleet use only", null, null, null, null, null, "4", null, null, null, [ null, null ], "200-8", "41.8860567", "-87.6627082", "2016-03-07T00:00:00", 1484683181, "T", null, null, "2015-01-14T00:00:00", null, null, null, null, [ null, "41.8860567", "-87.6627082", null, false ] ]
+, [ 504644, "A742729E-F1CB-4959-A022-28BAF7B077AF", 504644, 1491822036, "878752", 1491822036, "878752", null, "73377", "ELEC", "ComEd", "3498 S Pulaski Rd", null, "Chicago", "IL", "60623", null, null, "E", null, "Private", "ComEd fleet use only", null, null, null, null, null, "4", null, null, null, [ null, null ], "200-8", "41.8303018", "-87.7242397", "2016-03-07T00:00:00", 1484679165, "T", null, null, "2015-01-12T00:00:00", null, null, null, null, [ null, "41.8303018", "-87.7242397", null, false ] ]
+, [ 504645, "79562BFB-C963-433B-BDE5-5772FE5553DD", 504645, 1491822036, "878752", 1491822036, "878752", null, "73378", "ELEC", "ComEd", "3899 S Iron St", null, "Chicago", "IL", "60609", null, "630-576-6223", "E", null, "Public - Call ahead", "8am-5pm daily; mainly for employee use", null, null, null, null, null, "2", null, null, null, [ null, null ], "200-8", "41.8232224", "-87.6599316", "2016-03-07T00:00:00", 1484681602, "T", null, null, "2015-12-24T00:00:00", null, null, null, null, [ null, "41.8232224", "-87.6599316", null, false ] ]
+, [ 504678, "FF16B702-F5D7-42F9-BE3F-E3AEB38C0CF0", 504678, 1491822036, "878752", 1491822036, "878752", null, "73954", "ELEC", "71086", "900 N Lake Shore Dr", "900910", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.899474", "-87.619448", "2017-04-10T00:00:00", 1491792210, null, null, null, null, null, null, null, null, [ null, "41.899474", "-87.619448", null, false ] ]
+, [ 504680, "2E07AB8E-02D9-4B39-BA52-F7153C584A49", 504680, 1491822036, "878752", 1491822036, "878752", null, "74105", "ELEC", "540 W. MADISON", "540 West Madison St", "LL1 - 3; In parking garage", "Chicago", "IL", "60661", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8830254", "-87.6421009", "2017-04-10T00:00:00", 1491791844, null, null, null, null, null, null, null, null, [ null, "41.8830254", "-87.6421009", null, false ] ]
+, [ 504682, "E10AD1BE-6515-460E-82E7-9280526A2402", 504682, 1491822036, "878752", 1491822036, "878752", null, "74327", "ELEC", "1KFULTON", "1000 W Fulton Market", "1KFULTON; Public parking underground on North side of building", "Chicago", "IL", "60607", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.886859", "-87.6525005", "2017-04-10T00:00:00", 1491791931, null, null, null, null, null, null, null, null, [ null, "41.886859", "-87.6525005", null, false ] ]
+, [ 504684, "838E0449-1D50-4578-9897-3C4A0DA20601", 504684, 1491822036, "878752", 1491822036, "878752", null, "74841", "ELEC", "CAP 1 (QR 2000448)", "12600 Torrence Avenue", null, "Chicago", "IL", "60633", null, "855-443-3873", "E", null, "Private", null, null, null, null, null, null, "1", null, null, "GE WattStation", [ "https://www.gewattstation.com", null ], "GPS", "41.6635406", "-87.5613058", "2017-04-10T00:00:00", 1491801031, null, null, null, null, null, null, null, null, [ null, "41.6635406", "-87.5613058", null, false ] ]
+, [ 504689, "81E18C52-4BF9-4F3A-BA72-898666FE3676", 504689, 1491822036, "878752", 1491822036, "878752", null, "75250", "ELEC", "Grant Park North - Tesla", "25 N Michigan Ave", null, "Chicago", "IL", "60602", null, "312-616-0600  877-798-3752", "E", null, "Public", "24 hours daily; for Tesla use only", null, null, null, null, null, "2", null, null, "Tesla", [ "http://www.teslamotors.com/supercharger", null ], "200-8", "41.8827863", "-87.6228448", "2016-05-09T00:00:00", 1484677397, "P", null, null, "2016-01-01T00:00:00", null, null, null, null, [ null, "41.8827863", "-87.6228448", null, false ] ]
+, [ 504690, "E67F8301-EC68-4440-9A20-24DBA5CFED28", 504690, 1491822036, "878752", 1491822036, "878752", null, "75251", "ELEC", "Grant Park South - Tesla", "325 S Michigan Ave", null, "Chicago", "IL", "60604", null, "312-616-0600  877-798-3752", "E", null, "Public", "24 hours daily; for Tesla use only", null, null, null, null, null, "2", null, null, "Tesla", [ "http://www.teslamotors.com/supercharger", null ], "200-8", "41.8774374", "-87.6242333", "2016-05-09T00:00:00", 1484679523, "P", null, null, "2016-04-01T00:00:00", null, null, null, null, [ null, "41.8774374", "-87.6242333", null, false ] ]
+, [ 504693, "DBBC43B1-590B-44B7-A0CA-90BFCF35FFC2", 504693, 1491822036, "878752", 1491822036, "878752", null, "75256", "ELEC", "Loews Chicago Hotel - Tesla", "455 N Park Dr", null, "Chicago", "IL", "60611", null, "312-840-6600  877-798-3752", "E", null, "Public", "24 hours daily; for Tesla use only; for guest use only; see valet for access", null, null, null, null, null, "2", null, null, "Tesla", [ "http://www.teslamotors.com/supercharger", null ], "200-9", "41.8899143", "-87.61898", "2016-05-09T00:00:00", 1484685423, "P", null, null, "2016-03-01T00:00:00", null, null, null, null, [ null, "41.8899143", "-87.61898", null, false ] ]
+, [ 504694, "C4CE2585-816F-4451-B697-A6CE6B3B30C5", 504694, 1491822036, "878752", 1491822036, "878752", null, "75257", "ELEC", "Millennium Lakeside Garage - Tesla", "5 S Columbus Dr", null, "Chicago", "IL", "60603", null, "312-616-0600  877-798-3752", "E", null, "Public", "24 hours daily; for Tesla use only", null, null, null, null, null, "2", null, null, "Tesla", [ "http://www.teslamotors.com/supercharger", null ], "200-8", "41.8826102", "-87.620989", "2016-05-09T00:00:00", 1484683541, "P", null, null, "2016-02-01T00:00:00", null, null, null, null, [ null, "41.8826102", "-87.620989", null, false ] ]
+, [ 504697, "8FADD119-67AF-4DA3-A8BC-1A891D1709C1", 504697, 1491822036, "878752", 1491822036, "878752", null, "75783", "ELEC", "UNITED AIRLINES", "Atlantic Parking Lot Frankfurt bus stop", "ECOSKIES_ORD_1; -", "Chicago", "IL", "60666", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.9915274", "-87.9236017", "2017-04-10T00:00:00", 1491793785, null, null, null, null, null, null, null, null, [ null, "41.9915274", "-87.9236017", null, false ] ]
+, [ 504700, "C416E8E9-328A-439E-962C-950B1F26D5F8", 504700, 1491822036, "878752", 1491822036, "878752", null, "76234", "ELEC", "Trump International Hotel & Tower Chicago", "401 N Wabash Avenue", null, "Chicago", "IL", "60611", null, "888-998-2546", "E", null, "Public", "MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours", null, null, null, null, null, "1", null, null, "Blink Network", [ "http://www.blinknetwork.com/", null ], "GPS", "41.888835", "-87.626658", "2017-04-10T00:00:00", 1491790556, null, null, null, null, null, null, null, null, [ null, "41.888835", "-87.626658", null, false ] ]
+, [ 504701, "20A0637F-8343-43EE-A5FE-AEF395DC8D16", 504701, 1491822036, "878752", 1491822036, "878752", null, "76523", "ELEC", "PRUDENTIALPLAZA", "130 E Randolph St", "STATION 01; In parking garage 2nd level", "Chicago", "IL", "60601", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8853604", "-87.6231913", "2017-04-10T00:00:00", 1491791780, null, null, null, null, null, null, null, null, [ null, "41.8853604", "-87.6231913", null, false ] ]
+, [ 504714, "4AB9F7A5-A375-4674-B79A-2A50EBE29F6E", 504714, 1491822036, "878752", 1491822036, "878752", null, "77956", "ELEC", "ATWATER APARTME", "355-399 E Ohio St", "STATION 1; 3rd Floor", "Chicago", "IL", "60611", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8925854", "-87.6180051", "2017-04-10T00:00:00", 1491791590, null, null, null, null, null, null, null, null, [ null, "41.8925854", "-87.6180051", null, false ] ]
+, [ 504716, "A680065E-DC11-47C9-8CBE-BF0E228911FA", 504716, 1491822036, "878752", 1491822036, "878752", null, "77993", "ELEC", "401 N. Michigan Garage", "401 N. Michigan Ave", null, "Chicago", "IL", "60611", null, "888-998-2546", "E", null, "Public", "MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours", null, null, null, null, null, "2", null, null, "Blink Network", [ "http://www.blinknetwork.com/", null ], "GPS", "41.88956", "-87.623122", "2017-04-10T00:00:00", 1491790536, null, null, null, null, null, null, null, null, [ null, "41.88956", "-87.623122", null, false ] ]
+, [ 504718, "37495D3C-367E-4873-AC47-F72F3CF8F26A", 504718, 1491822036, "878752", 1491822036, "878752", null, "78138", "ELEC", "31ST STREET", "3155 S. Lakeshore drive", "31ST HARBOR", "Chicago", "IL", "60616", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8367417", "-87.6066607", "2017-04-10T00:00:00", 1491791598, null, null, null, null, null, null, null, null, [ null, "41.8367417", "-87.6066607", null, false ] ]
+, [ 504719, "CB673F0A-6BE0-43E9-9E2A-C56C37F6A895", 504719, 1491822036, "878752", 1491822036, "878752", null, "78143", "ELEC", "Whole Foods - Kingsbury", "1550 N Kingsbury St", null, "Chicago", "IL", "60642", null, "877-455-3833", "E", null, "Public - Card key at all times", "24 hours daily; EVgo network subscription and key fob required", null, null, null, null, null, "2", "2", null, "eVgo Network", [ "https://www.evgonetwork.com/", null ], "GPS", "41.9086418151855", "-87.6532516479492", "2017-04-10T00:00:00", 1491800555, null, null, null, null, null, null, null, null, [ null, "41.9086418151855", "-87.6532516479492", null, false ] ]
+, [ 504726, "49D42C1F-997D-44BA-86DD-D65B3AD617E5", 504726, 1491822036, "878752", 1491822036, "878752", null, "78492", "ELEC", "RPS", "7331 N Sheridan Rd", "ROGERS PARK SOL; The station is located on the 1st level of the parking garage", "Chicago", "IL", "60626", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "42.0148476", "-87.6640152", "2017-04-10T00:00:00", 1491792722, null, null, null, null, null, null, null, null, [ null, "42.0148476", "-87.6640152", null, false ] ]
+, [ 504727, "9C88EB36-A7E2-4788-AD71-57F5365F111F", 504727, 1491822036, "878752", 1491822036, "878752", null, "78523", "ELEC", "540 W. MADISON", "13 N Jefferson St", "LL1-4; -", "Chicago", "IL", "60661", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8823684", "-87.6421786", "2017-04-10T00:00:00", 1491791373, null, null, null, null, null, null, null, null, [ null, "41.8823684", "-87.6421786", null, false ] ]
+, [ 504733, "79C89799-CE9F-40D5-AEF1-0E6C9ED8863F", 504733, 1491822036, "878752", 1491822036, "878752", null, "79160", "ELEC", "Walgreens - West Fullerton", "1520 W Fullerton Ave", null, "Chicago", "IL", "60614", null, "877-455-3833", "E", null, "Public - Card key at all times", "24 hours daily; EVgo network subscription and key fob required", null, null, null, null, null, null, "2", null, "eVgo Network", [ "https://www.evgonetwork.com/", null ], "GPS", "41.9257049560547", "-87.6661834716797", "2017-04-10T00:00:00", 1491800559, null, null, null, null, null, null, null, null, [ null, "41.9257049560547", "-87.6661834716797", null, false ] ]
+, [ 504736, "89D098C3-D8A4-4C42-8D92-36D611B752AE", 504736, 1491822036, "878752", 1491822036, "878752", null, "79311", "ELEC", "City of Chicago", "3400 S Lawndale Ave", null, "Chicago", "IL", "60623", null, null, "E", null, "Private", "Chicago fleet vehicle use only", null, null, null, null, null, "1", null, null, null, [ null, null ], "200-8", "41.831349", "-87.7170515", "2016-11-02T00:00:00", 1484686142, "LG", null, null, "2016-06-01T00:00:00", null, null, null, null, [ null, "41.831349", "-87.7170515", null, false ] ]
+, [ 504746, "D8050C0F-0807-4D5B-86A8-7D0382623E3D", 504746, 1491822036, "878752", 1491822036, "878752", null, "80236", "ELEC", "ONE SOUTH WACKE", "1 S Wacker Dr", "OSW STATION #1; Parking garage level P1. For spots #44 and #45", "Chicago", "IL", "60606", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "41.8815973", "-87.6365143", "2017-04-10T00:00:00", 1491791214, null, null, null, null, null, null, null, null, [ null, "41.8815973", "-87.6365143", null, false ] ]
+, [ 504747, "6801428A-E2BD-453D-B44F-08F72C116B4F", 504747, 1491822036, "878752", 1491822036, "878752", null, "80829", "ELEC", "Whole Foods - Canal St", "1101 S. Canal St", null, "Chicago", "IL", "60607", null, "877-455-3833", "E", null, "Public - Card key at all times", "24 hours daily; EVgo network subscription and key fob required", null, null, null, null, null, "2", null, null, "eVgo Network", [ "https://www.evgonetwork.com/", null ], "GPS", "41.8679237365723", "-87.6381912231445", "2017-04-10T00:00:00", 1491800538, null, null, null, null, null, null, null, null, [ null, "41.8679237365723", "-87.6381912231445", null, false ] ]
+, [ 504750, "57080087-E00E-47AE-B892-4953D5476C02", 504750, 1491822036, "878752", 1491822036, "878752", null, "81413", "ELEC", "LPC", "2330 North Clifton Avenue", "The stations are installed on the ground level of the garage.\nThe stations are installed on the ground level of the garage.", "Chicago", "IL", "60614", null, "800-663-5633", "E", null, "Public", "MO: 12:00am-12:00am; TU: 12:00am-12:00am; WE: 12:00am-12:00am; TH: 12:00am-12:00am; FR: 12:00am-12:00am; SA: 12:00am-12:00am; SU: 12:00am-12:00am", null, null, null, null, null, "2", null, null, "SemaCharge Network", [ "http://www.semacharge.com/", null ], "GPS", "41.9245874", "-87.657365", "2017-04-09T00:00:00", 1491706203, null, null, null, null, null, null, null, null, [ null, "41.9245874", "-87.657365", null, false ] ]
+, [ 504766, "91EE49DB-3ABA-4BF8-B0E7-635CCBA6F6CF", 504766, 1491822036, "878752", 1491822036, "878752", null, "81718", "ELEC", "S&C ELECTRIC", "6601 N Ridge Blvd", "EV5", "Chicago", "IL", "60626", null, "888-758-4389", "E", null, "Public", "24 hours daily", null, null, null, null, null, "2", null, null, "ChargePoint Network", [ "http://www.chargepoint.com/", null ], "GPS", "42.0036555", "-87.6787926", "2017-04-10T00:00:00", 1491791135, null, null, null, null, null, null, null, null, [ null, "42.0036555", "-87.6787926", null, false ] ]
+ ]
+}
