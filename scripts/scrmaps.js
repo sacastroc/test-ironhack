@@ -112,7 +112,7 @@ function initMap(){
 		var mapDiv = document.getElementById('map-canvas');
 		map = new google.maps.Map(mapDiv, {
 			center: {lat: 41.8708, lng: -87.6505},
-			zoom: 16
+			zoom: 15
 		});
 		var marker = new google.maps.Marker({
 			position: {lat: 41.8708, lng: -87.6505},
@@ -124,7 +124,7 @@ function initMap(){
             $.each(datajs.data, function(key, data) {
                 // console.log(data);
                 latLng = new google.maps.LatLng(data[19],data[20]);
-                createMarker(latLng,data[11],data[12],'rentHouse',map,false);
+                createMarker(latLng,data[11],data[12],'rentHouse',map,true);
                 });
         });
 
@@ -137,6 +137,7 @@ function initMap(){
             success: function(data) {
                 // console.log("Retrieved " + data.length + " records from the dataset!");
                 $.each(data,function(index, val) {
+                    // console.log(val);
                     latLng = new google.maps.LatLng(val.latitude,val.longitude)
                     createMarker(latLng,val.primary_type,val.description,'crimes',map,false);
                 });
@@ -219,8 +220,8 @@ function initMap(){
                 token:'GObOTHMIHXwtGMHygXiFlcAFGJKThoYE'
             },
             success: function(data) {
-                console.log("Retrieved " + data.length + " records from the dataset!");
-                console.log(data);
+                // console.log("Retrieved " + data.length + " records from the dataset!");
+                // console.log(data);
                 // $.each(data,function(index, val) {
                 //     latLng = new google.maps.LatLng(val.latitude,val.longitude)
                 //     createMarker(latLng,val.primary_type,val.description,'crimes',map,false);
@@ -236,25 +237,25 @@ var customIcons = {
         icon: ''
     },
     'crimes': {
-        icon: 'images/crimes.png'
+        icon: 'images/crime.png'
     },
     'parks': {
-        icon: ''
+        icon: 'images/park.png'
     },
     'policeStations': {
-        icon: ''
+        icon: 'images/policeStation.png'
     },
     'bikeRacks': {
-        icon: ''
+        icon: 'images/bikeRack.png'
     },
     'alternativeFuel': {
-        icon: ''
+        icon: 'images/alternativeFuel.png'
     },
     'fireStations': {
-        icon: ''
+        icon: 'images/fireStation.png'
     },
     'libraries': {
-        icon: ''
+        icon: 'images/library.png'
     }
 };
 
@@ -295,10 +296,10 @@ function toggleGroup(type) {
         if (!marker.getVisible()) {
             marker.setVisible(true);
 
-            $(idname).attr('class','btn btn-success')
+            $(idname).attr('class','btn btn-success btn-xs btn-toggle')
         } else {
             marker.setVisible(false);
-            $(idname).attr('class','btn btn-danger')
+            $(idname).attr('class','btn btn-danger btn-xs btn-toggle')
         }
     }
 }

@@ -4,6 +4,11 @@
 	display: table-row;
 }
 
+.btn-toggle
+{
+	width: 45px;
+}
+
 input[type=range].rangeStyle {
   -webkit-appearance: none;
   width: 100%;

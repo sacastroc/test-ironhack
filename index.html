@@ -24,21 +24,108 @@
 				<h1>Rentill - Find your best place</h1>
 			</div>
 		</div>
+		<!-- <input type="checkbox" name="filters" rel="filterHouse" onclick="toggleGroup('rentHouse')" checked="true"></input> -->
 
 		<div class="container">
-			<input type="button" onclick="forprices()" />
+			<!-- <input type="button" onclick="forprices()" /> -->
 			<div class="row">
+
 				<div class="col-md-4 col-xs-12">
-					<div class="col-md-1 col-xs-1">
-						<input type="checkbox" name="filters" rel="filterHouse" onclick="toggleGroup('rentHouse')" checked="true"></input>
-						<button type="button" class="btn btn-success" id="btn-rentHouse" onclick="toggleGroup('rentHouse')">
+					<!-- Inputdata rentHouse -->
+					<div class="col-md-2 col-xs-1">
+						<button type="button" class="btn btn-success btn-xs btn-toggle" id="btn-rentHouse" onclick="toggleGroup('rentHouse')">
+							<img src="images/rentHouse-btn.png" />
 						</button>
 					</div>
-					<div class="col-md-10 col-xs-10">
-						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-price" oninput="getValues(this.value)"/>
+					<div class="col-md-9 col-xs-10">
+						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-rentHouse" oninput="getValues(this.value,'rentHouse')"/>
 					</div>
 					<div class="col-md-1 col-xs-1">
-						<span id="out-price"></span>
+						<img id="out-rentHouse" src="images/del.png" height=30 width=30 class='mark' />
+					</div>
+					<!-- Inputdata crimes -->
+					<div class="col-md-2 col-xs-1">
+						<button type="button" class="btn btn-danger btn-xs btn-toggle" id="btn-crimes" onclick="toggleGroup('crimes')">
+							<img src="images/crime-btn.png" />
+						</button>
+					</div>
+					<div class="col-md-9 col-xs-10">
+						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-crimes" oninput="getValues(this.value,'crimes')"/>
+					</div>
+					<div class="col-md-1 col-xs-1">
+						<img id="out-crimes" src="images/del.png" height=30 width=30 class='mark' />
+					</div>
+					<!-- Inputdata parks -->
+					<div class="col-md-2 col-xs-1">
+						<button type="button" class="btn btn-danger btn-xs btn-toggle" id="btn-parks" onclick="toggleGroup('parks')">
+							<img src="images/park-btn.png" />
+						</button>
+					</div>
+					<div class="col-md-9 col-xs-10">
+						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-parks" oninput="getValues(this.value,'parks')"/>
+					</div>
+					<div class="col-md-1 col-xs-1">
+						<img id="out-parks" src="images/del.png" height=30 width=30 class='mark' />
+					</div>
+					<!-- Inputdata police stations -->
+					<div class="col-md-2 col-xs-1">
+						<button type="button" class="btn btn-danger btn-xs btn-toggle" id="btn-policeStations" onclick="toggleGroup('policeStations')">
+							<img src="images/policeStation-btn.png" />
+						</button>
+					</div>
+					<div class="col-md-9 col-xs-10">
+						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-policeStations" oninput="getValues(this.value,'policeStations')"/>
+					</div>
+					<div class="col-md-1 col-xs-1">
+						<img id="out-policeStations" src="images/del.png" height=30 width=30 class='mark' />
+					</div>
+					<!-- Inputdata bike racks -->
+					<div class="col-md-2 col-xs-1">
+						<button type="button" class="btn btn-danger btn-xs btn-toggle" id="btn-bikeRacks" onclick="toggleGroup('bikeRacks')">
+							<img src="images/bikeRack-btn.png" />
+						</button>
+					</div>
+					<div class="col-md-9 col-xs-10">
+						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-bikeRacks" oninput="getValues(this.value,'bikeRacks')"/>
+					</div>
+					<div class="col-md-1 col-xs-1">
+						<img id="out-bikeRacks" src="images/del.png" height=30 width=30 class='mark' />
+					</div>
+					<!-- Inputdata alternative fuel  -->
+					<div class="col-md-2 col-xs-1">
+						<button type="button" class="btn btn-danger btn-xs btn-toggle" id="btn-alternativeFuel" onclick="toggleGroup('alternativeFuel')">
+							<img src="images/alternativeFuel-btn.png" />
+						</button>
+					</div>
+					<div class="col-md-9 col-xs-10">
+						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-alternativeFuel" oninput="getValues(this.value,'alternativeFuel')"/>
+					</div>
+					<div class="col-md-1 col-xs-1">
+						<img id="out-alternativeFuel" src="images/del.png" height=30 width=30 class='mark' />
+					</div>
+					<!-- Inputdata fire stations -->
+					<div class="col-md-2 col-xs-1">
+						<button type="button" class="btn btn-danger btn-xs btn-toggle" id="btn-fireStations" onclick="toggleGroup('fireStations')">
+							<img src="images/fireStation-btn.png" />
+						</button>
+					</div>
+					<div class="col-md-9 col-xs-10">
+						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-fireStations" oninput="getValues(this.value,'fireStations')"/>
+					</div>
+					<div class="col-md-1 col-xs-1">
+						<img id="out-fireStations" src="images/del.png" height=30 width=30 class='mark' />
+					</div>
+					<!-- Inputdata libraries -->
+					<div class="col-md-2 col-xs-1">
+						<button type="button" class="btn btn-danger btn-xs btn-toggle" id="btn-libraries" onclick="toggleGroup('libraries')">
+							<img src="images/library-btn.png" />
+						</button>
+					</div>
+					<div class="col-md-9 col-xs-10">
+						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-libraries" oninput="getValues(this.value,'libraries')"/>
+					</div>
+					<div class="col-md-1 col-xs-1">
+						<img id="out-libraries" src="images/del.png" height=30 width=30 class='mark' />
 					</div>
 				</div>
 				<div class="col-md-8 col-xs-12" id="map-canvas"></div>

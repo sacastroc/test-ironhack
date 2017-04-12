@@ -1,18 +1,27 @@
 var a;
-
+var customRange;
 $(document).ready(function() {
-	a = document.getElementById('inr-price');
-	a.max = 200;
-	getValues(a.value)
-	//$('#out-price').text(a.value)
-});
+	$.each(markerGroups,function(index, group) {
+		console.log(index);
+		customRange = 'inr-' + index;
+		a = document.getElementById(customRange);
+		a.max = 200;
+	});
 
-function getValues(v) {
+});
+var outImage;
+
+function getValues(v,index) {
+	outImage = 'out-' + index;
 	if (v < a.max / 3) {
-		document.getElementById('out-price').innerHTML = "<img src='images/del.png' height=30 width=30 class='mark'>";
+		// $(outImage).attr('src','images/del.png');
+		// document.getElementById(outImage).innerHTML = "<img src='images/war.png' height=30 width=30 class='mark'>";
+		document.getElementById(outImage).src = 'images/del.png';
 	}else if (v < (a.max / 3) * 2) {
-		document.getElementById('out-price').innerHTML = "<img src='images/war.png' height=30 width=30 class='mark'>";
+		$(outImage).attr('src','images/war.png');
+		document.getElementById(outImage).src = 'images/war.png';
 	}else {
-		document.getElementById('out-price').innerHTML = "<img src='images/sec.png' height=30 width=30 class='mark'>";
+		$(outImage).attr('src','images/sec.png');
+		document.getElementById(outImage).src = 'images/sec.png';
 	}
 }
