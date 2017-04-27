@@ -1,4 +1,4 @@
-# [WIP] Rentill
+# Rentill
 
 
 
@@ -6,7 +6,7 @@
 
 Price, Good Place, Transportation Convenience
 
-### [WIP] Datasets
+### Datasets
 These are the first contemplations of datasets, in the next iterations, some datasets will be added or removed.
 1. [Climate Data Online](https://www.ncdc.noaa.gov/cdo-web/)
 2. [Zillow](https://www.zillow.com/howto/api/APIOverview.htm) <- In discussion by format handle
@@ -21,6 +21,7 @@ These are the first contemplations of datasets, in the next iterations, some dat
 11. [Affordable Rental Housing Developments](https://data.cityofchicago.org/Community-Economic-Development/Affordable-Rental-Housing-Developments/s6ha-ppgi)
 
 
-### [WIP] Description
+### Description
 Rentill - Find your best place close to University Of Illinois pleasing your needs
 Using Google Maps API
+Using datasets to get positions of rent houses, parks, police stations, fire stations, and crimes

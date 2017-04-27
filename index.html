@@ -1,139 +1,156 @@
 <!DOCTYPE html>
 <html>
-
+<!-- For a full functionallity webpage, please install CORS chrome extension -->
 	<head>
 		<meta charset="utf-8" />
 		<title>Rentill</title>
-		<script src="https://d3js.org/d3.v4.min.js"></script>
-		<script src="https://d3js.org/d3-collection.v1.min.js"></script>
-		<script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
-		<script src="https://d3js.org/d3-dsv.v1.min.js"></script>
-		<script src="https://d3js.org/d3-request.v1.min.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<link rel="shortcut icon" href=""></link>
+		<link rel="stylesheet" href="styles/c3.css" />
 		<link rel="stylesheet" type="text/css" href="styles/index.css"></link>
+		<script src="https://d3js.org/d3.v3.min.js"></script>
+		<script src="scripts/c3.min.js"></script>
 	</head>
 
 	<body>
 		<div class="container">
-			<div class="page-header">
-				<h1>Rentill - Find your best place</h1>
+			<div class="page-header text-center">
+				<h1>RENTILL - Find your best place</h1>
 			</div>
 		</div>
 		<!-- <input type="checkbox" name="filters" rel="filterHouse" onclick="toggleGroup('rentHouse')" checked="true"></input> -->
-
+		<!-- Big change from last commit, remove ranges for presentation, reason: No time to implement logic with that :( -->
 		<div class="container">
 			<!-- <input type="button" onclick="forprices()" /> -->
 			<div class="row">
 
 				<div class="col-md-4 col-xs-12">
 					<!-- Inputdata rentHouse -->
-					<div class="col-md-2 col-xs-1">
-						<button type="button" class="btn btn-success btn-xs btn-toggle" id="btn-rentHouse" onclick="toggleGroup('rentHouse')">
+					<!-- col-md-2 col-xs-1 -->
+					<div class="col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8">
+						<button type="button" class="btn btn-success btn-toggle" id="btn-rentHouse" onclick="toggleGroup('rentHouse')">
 							<img src="images/rentHouse-btn.png" />
 						</button>
 					</div>
-					<div class="col-md-9 col-xs-10">
+					<!-- <div class="col-md-9 col-xs-10">
 						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-rentHouse" oninput="getValues(this.value,'rentHouse')"/>
 					</div>
 					<div class="col-md-1 col-xs-1">
 						<img id="out-rentHouse" src="images/del.png" height=30 width=30 class='mark' />
-					</div>
+					</div> -->
 					<!-- Inputdata crimes -->
-					<div class="col-md-2 col-xs-1">
-						<button type="button" class="btn btn-danger btn-xs btn-toggle" id="btn-crimes" onclick="toggleGroup('crimes')">
+					<div class="col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8">
+						<button type="button" class="btn btn-danger btn-toggle" id="btn-crimes" onclick="toggleGroup('crimes')">
 							<img src="images/crime-btn.png" />
 						</button>
 					</div>
-					<div class="col-md-9 col-xs-10">
+					<!-- <div class="col-md-9 col-xs-10">
 						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-crimes" oninput="getValues(this.value,'crimes')"/>
 					</div>
 					<div class="col-md-1 col-xs-1">
 						<img id="out-crimes" src="images/del.png" height=30 width=30 class='mark' />
-					</div>
+					</div> -->
 					<!-- Inputdata parks -->
-					<div class="col-md-2 col-xs-1">
-						<button type="button" class="btn btn-danger btn-xs btn-toggle" id="btn-parks" onclick="toggleGroup('parks')">
+					<div class="col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8">
+						<button type="button" class="btn btn-danger btn-toggle" id="btn-parks" onclick="toggleGroup('parks')">
 							<img src="images/park-btn.png" />
 						</button>
 					</div>
-					<div class="col-md-9 col-xs-10">
+					<!-- <div class="col-md-9 col-xs-10">
 						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-parks" oninput="getValues(this.value,'parks')"/>
 					</div>
 					<div class="col-md-1 col-xs-1">
 						<img id="out-parks" src="images/del.png" height=30 width=30 class='mark' />
-					</div>
+					</div> -->
 					<!-- Inputdata police stations -->
-					<div class="col-md-2 col-xs-1">
-						<button type="button" class="btn btn-danger btn-xs btn-toggle" id="btn-policeStations" onclick="toggleGroup('policeStations')">
+					<div class="col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8">
+						<button type="button" class="btn btn-danger btn-toggle" id="btn-policeStations" onclick="toggleGroup('policeStations')">
 							<img src="images/policeStation-btn.png" />
 						</button>
 					</div>
-					<div class="col-md-9 col-xs-10">
+					<!-- <div class="col-md-9 col-xs-10">
 						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-policeStations" oninput="getValues(this.value,'policeStations')"/>
 					</div>
 					<div class="col-md-1 col-xs-1">
 						<img id="out-policeStations" src="images/del.png" height=30 width=30 class='mark' />
-					</div>
+					</div> -->
 					<!-- Inputdata bike racks -->
-					<div class="col-md-2 col-xs-1">
-						<button type="button" class="btn btn-danger btn-xs btn-toggle" id="btn-bikeRacks" onclick="toggleGroup('bikeRacks')">
+					<div class="col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8">
+						<button type="button" class="btn btn-danger btn-toggle" id="btn-bikeRacks" onclick="toggleGroup('bikeRacks')">
 							<img src="images/bikeRack-btn.png" />
 						</button>
 					</div>
-					<div class="col-md-9 col-xs-10">
+					<!-- <div class="col-md-9 col-xs-10">
 						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-bikeRacks" oninput="getValues(this.value,'bikeRacks')"/>
 					</div>
 					<div class="col-md-1 col-xs-1">
 						<img id="out-bikeRacks" src="images/del.png" height=30 width=30 class='mark' />
-					</div>
+					</div> -->
 					<!-- Inputdata alternative fuel  -->
-					<div class="col-md-2 col-xs-1">
-						<button type="button" class="btn btn-danger btn-xs btn-toggle" id="btn-alternativeFuel" onclick="toggleGroup('alternativeFuel')">
+					<div class="col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8">
+						<button type="button" class="btn btn-danger btn-toggle" id="btn-alternativeFuel" onclick="toggleGroup('alternativeFuel')">
 							<img src="images/alternativeFuel-btn.png" />
 						</button>
 					</div>
-					<div class="col-md-9 col-xs-10">
+					<!-- <div class="col-md-9 col-xs-10">
 						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-alternativeFuel" oninput="getValues(this.value,'alternativeFuel')"/>
 					</div>
 					<div class="col-md-1 col-xs-1">
 						<img id="out-alternativeFuel" src="images/del.png" height=30 width=30 class='mark' />
-					</div>
+					</div> -->
 					<!-- Inputdata fire stations -->
-					<div class="col-md-2 col-xs-1">
-						<button type="button" class="btn btn-danger btn-xs btn-toggle" id="btn-fireStations" onclick="toggleGroup('fireStations')">
+					<div class="col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8">
+						<button type="button" class="btn btn-danger btn-toggle" id="btn-fireStations" onclick="toggleGroup('fireStations')">
 							<img src="images/fireStation-btn.png" />
 						</button>
 					</div>
-					<div class="col-md-9 col-xs-10">
+					<!-- <div class="col-md-9 col-xs-10">
 						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-fireStations" oninput="getValues(this.value,'fireStations')"/>
 					</div>
 					<div class="col-md-1 col-xs-1">
 						<img id="out-fireStations" src="images/del.png" height=30 width=30 class='mark' />
-					</div>
+					</div> -->
 					<!-- Inputdata libraries -->
-					<div class="col-md-2 col-xs-1">
-						<button type="button" class="btn btn-danger btn-xs btn-toggle" id="btn-libraries" onclick="toggleGroup('libraries')">
+					<div class="col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8">
+						<button type="button" class="btn btn-danger btn-toggle" id="btn-libraries" onclick="toggleGroup('libraries')">
 							<img src="images/library-btn.png" />
 						</button>
 					</div>
-					<div class="col-md-9 col-xs-10">
+					<!-- <div class="col-md-9 col-xs-10">
 						<input type="range" value="0" min="0" step="0.1" class="rangeStyle" id="inr-libraries" oninput="getValues(this.value,'libraries')"/>
 					</div>
 					<div class="col-md-1 col-xs-1">
 						<img id="out-libraries" src="images/del.png" height=30 width=30 class='mark' />
+					</div> -->
+					<div class="col-md-12 col-xs-12">
+						<h5>Temperature in chicago in the next 6 days</h5>
+						<div id="chart">
+						</div>
 					</div>
 				</div>
+
 				<div class="col-md-8 col-xs-12" id="map-canvas"></div>
 			</div>
 		</div>
+
 		<footer class="footer">
 			<div class="container">
-				<a href="index.html">Home</a> (Bootstrap footer test)
+				<a href="index.html">Home</a>
+				<button id="aboutBtn" type="button" class="btn-link">About</button>
+			</div>
+			<div id="aboutModal" class="modal">
+				<div class="modal-content">
+				    <span class="close">&times;</span>
+				    <p>
+						<h3>Rentill- Find your best place</h3>
+						Web application created for Ironhacks 2016<br />
+						National University of Colombia - Purdeu University
+					</p>
+				</div>
 			</div>
 		</footer>
 	</body>
